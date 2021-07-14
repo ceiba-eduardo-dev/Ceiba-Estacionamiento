@@ -7,63 +7,59 @@ pipeline {
   //Opciones específicas de Pipeline dentro del Pipeline
   options {
         buildDiscarder(logRotator(numToKeepStr: '3'))
-     disableConcurrentBuilds()
+    disableConcurrentBuilds()
   }
 
   //Una sección que define las herramientas “preinstaladas” en Jenkins
   tools {
     jdk 'JDK8_Centos' //Verisión preinstalada en la Configuración del Master
   }
-  stages{
-    stage('Checkout'){
-        steps{
-            echo "------------>Checkout<------------"
+  stages {
+    stage('Checkout') {
+        steps {
+            echo '------------>Checkout<------------'
             checkout([
-                $class: 'GitSCM', 
-                branches: [[name: '*/main']], 
-                doGenerateSubmoduleConfigurations: false, 
-                extensions: [], 
-                gitTool: 'Default', 
-                submoduleCfg: [], 
+                $class: 'GitSCM',
+                branches: [[name: '*/main']],
+                doGenerateSubmoduleConfigurations: false,
+                extensions: [],
+                gitTool: 'Default',
+                submoduleCfg: [],
                 userRemoteConfigs: [[
-                credentialsId: 'GitHub_EduardoGrosso', 
+                credentialsId: 'GitHub_EduardoGrosso',
                 url:'https://github.com/ceiba-eduardo-dev/Ceiba-Estacionamiento'
                 ]]
             ])
         }
     }
-    
-    stage('Compile & Unit Tests') {
-      steps{
-        echo "------------>Compile & Unit Tests<------------"
 
+    stage('Compile & Unit Tests') {
+      steps {
+        echo '------------>Compile & Unit Tests<------------'
       }
     }
 
     stage('Compile & Unit Tests') {
-      steps{
-        echo "------------>compile & Unit Tests<------------"
+      steps {
+        echo '------------>compile & Unit Tests<------------'
         sh 'chmod +x gradlew'
         sh './gradlew --b ./build.gradle test'
       }
     }
 
-
-
     stage('Static Code Analysis') {
-      steps{
+      steps {
         echo '------------>Análisis de código estático<------------'
         withSonarQubeEnv('Sonar') {
-        sh "${tool name: 'SonarScanner', type:'hudson.plugins.sonar.SonarRunnerInstallation'}/bin/sonar-scanner"
+          sh "${tool name: 'SonarScanner', type:'hudson.plugins.sonar.SonarRunnerInstallation'}/bin/sonar-scanner"
         }
       }
     }
 
     stage('Build') {
-        steps{
-          echo "------------>Build<------------"
+        steps {
+          echo '------------>Build<------------'
           sh './gradlew --b ./build.gradle build -x test'
-          }
         }
     }
   }
@@ -71,8 +67,7 @@ pipeline {
   post {
     failure {
       echo 'This will run only if failed'
-      mail (to: 'eduardo.grosso@ceiba.com.co',subject: "Failed Pipeline:${currentBuild.fullDisplayName}",body: "Something is wrong with ${env.BUILD_URL}")
+      email (to: 'eduardo.grosso@ceiba.com.co', subject: "Failed Pipeline:${currentBuild.fullDisplayName}", body: "Something is wrong with ${env.BUILD_URL}")
     }
   }
-
 }
