@@ -14,29 +14,17 @@ pipeline {
   }
 
   stages {
-    stage('Checkout') {
+    stage('Build') {
         steps {
-            echo '------------>Checkout<------------'
-            checkout([
-                $class: 'GitSCM',
-                branches: [[name: '*/main']],
-                doGenerateSubmoduleConfigurations: false,
-                extensions: [],
-                gitTool: 'Default',
-                submoduleCfg: [],
-                userRemoteConfigs: [[
-                credentialsId: 'GitHub_EduardoGrosso',
-                url:'https://github.com/ceiba-eduardo-dev/Ceiba-Estacionamiento'
-                ]]
-            ])
+          echo '------------>Build<------------'
+          sh './gradlew build -x test'
         }
     }
-
     stage('Compile & Unit Tests') {
       steps {
         echo '------------>compile & Unit Tests<------------'
         sh 'chmod +x gradlew'
-        sh './gradlew --b ./build.gradle test'
+        sh './gradlew test'
       }
     }
 
@@ -47,13 +35,6 @@ pipeline {
           sh "${tool name: 'SonarScanner', type:'hudson.plugins.sonar.SonarRunnerInstallation'}/bin/sonar-scanner"
         }
       }
-    }
-
-    stage('Build') {
-        steps {
-          echo '------------>Build<------------'
-          sh './gradlew --b ./build.gradle build -x test'
-        }
     }
   }
 
