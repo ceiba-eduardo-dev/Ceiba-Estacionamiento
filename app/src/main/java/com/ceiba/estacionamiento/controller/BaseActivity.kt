@@ -25,13 +25,5 @@ abstract class BaseActivity : AppCompatActivity() {
 
     abstract fun initializeView()
 
-    /**
-     * Muestra un mensaje para notificar el resultado de una operacion
-     */
-    fun showMessageInformation(message: String) {
-        val toast = Toast.makeText(applicationContext, message, Toast.LENGTH_SHORT)
-        toast.setGravity(Gravity.CENTER, 0, 0)
-        toast.show()
-    }
 
 }
