@@ -1,5 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AndroidLayouts">
+    <shared>
+      <config />
+    </shared>
+  </component>
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="NONE" />
   </component>
@@ -34,6 +39,13 @@
       <ProjectState />
     </projectState>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Kotlin Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -51,7 +63,14 @@
     <property name="project.structure.proportion" value="0.17" />
     <property name="project.structure.side.proportion" value="0.0" />
   </component>
-  <component name="RunManager" selected="Android JUnit.All in Estacionamiento">
+  <component name="RecentsManager">
+    <key name="MoveKotlinTopLevelDeclarationsDialog.RECENTS_KEY">
+      <recent name="com.ceiba.estacionamiento.controller" />
+      <recent name="com.ceiba.estacionamiento.controller.vehicles" />
+      <recent name="com.ceiba.estacionamiento.controller.di" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Android App.app">
     <configuration name="All in Estacionamiento" type="AndroidJUnit" factoryName="Android JUnit" temporary="true" nameIsGenerated="true">
       <module name="Estacionamiento" />
       <option name="PACKAGE_NAME" value="" />
@@ -170,5 +189,39 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="470" y="116" key="#com.intellij.ide.util.MemberChooser" timestamp="1627511657007">
+      <screen x="0" y="25" width="1366" height="743" />
+    </state>
+    <state x="470" y="116" key="#com.intellij.ide.util.MemberChooser/1366.25.1792.1095/0.25.1366.743@0.25.1366.743" timestamp="1627511657007" />
+    <state x="122" y="325" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1627501122866">
+      <screen x="0" y="25" width="1366" height="743" />
+    </state>
+    <state x="122" y="325" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/1366.25.1792.1095/0.25.1366.743@0.25.1366.743" timestamp="1627501122866" />
+    <state x="421" y="147" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1627508246843">
+      <screen x="0" y="25" width="1366" height="743" />
+    </state>
+    <state x="421" y="147" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/1366.25.1792.1095/0.25.1366.743@0.25.1366.743" timestamp="1627508246843" />
+    <state x="444" y="192" width="506" height="409" key="#org.jetbrains.kotlin.idea.refactoring.move.moveDeclarations.ui.MoveKotlinTopLevelDeclarationsDialog" timestamp="1627512165994">
+      <screen x="0" y="25" width="1366" height="743" />
+    </state>
+    <state x="444" y="192" width="506" height="409" key="#org.jetbrains.kotlin.idea.refactoring.move.moveDeclarations.ui.MoveKotlinTopLevelDeclarationsDialog/1366.25.1792.1095/0.25.1366.743@0.25.1366.743" timestamp="1627512165994" />
+    <state width="1324" height="184" key="GridCell.Tab.0.bottom" timestamp="1627507624012">
+      <screen x="0" y="25" width="1366" height="743" />
+    </state>
+    <state width="1324" height="184" key="GridCell.Tab.0.bottom/1366.25.1792.1095/0.25.1366.743@0.25.1366.743" timestamp="1627507624012" />
+    <state width="1324" height="184" key="GridCell.Tab.0.center" timestamp="1627507624011">
+      <screen x="0" y="25" width="1366" height="743" />
+    </state>
+    <state width="1324" height="184" key="GridCell.Tab.0.center/1366.25.1792.1095/0.25.1366.743@0.25.1366.743" timestamp="1627507624011" />
+    <state width="1324" height="184" key="GridCell.Tab.0.left" timestamp="1627507624011">
+      <screen x="0" y="25" width="1366" height="743" />
+    </state>
+    <state width="1324" height="184" key="GridCell.Tab.0.left/1366.25.1792.1095/0.25.1366.743@0.25.1366.743" timestamp="1627507624011" />
+    <state width="1324" height="184" key="GridCell.Tab.0.right" timestamp="1627507624012">
+      <screen x="0" y="25" width="1366" height="743" />
+    </state>
+    <state width="1324" height="184" key="GridCell.Tab.0.right/1366.25.1792.1095/0.25.1366.743@0.25.1366.743" timestamp="1627507624012" />
   </component>
 </project>
