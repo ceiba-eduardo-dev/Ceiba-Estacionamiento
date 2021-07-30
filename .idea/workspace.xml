@@ -77,12 +77,13 @@
       <change beforePath="$PROJECT_DIR$/.gradle/6.7.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.7.1/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.7.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.7.1/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.7.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.7.1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.7.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.7.1/fileHashes/fileHashes.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.7.1/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.7.1/fileHashes/resourceHashesCache.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.7.1/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.7.1/javaCompile/classAnalysis.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.7.1/javaCompile/jarAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.7.1/javaCompile/jarAnalysis.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.7.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.7.1/javaCompile/javaCompile.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.7.1/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.7.1/javaCompile/taskHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
@@ -99,6 +100,7 @@
       <change beforePath="$PROJECT_DIR$/app/src/test/java/com/ceiba/estacionamiento/vehicles/model/vo/DatePeriodTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/test/java/com/ceiba/estacionamiento/vehicles/model/vo/DatePeriodTest.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/test/java/com/ceiba/estacionamiento/vehicles/model/vo/PricesParkingUCTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/test/java/com/ceiba/estacionamiento/vehicles/model/vo/PricesParkingUCTest.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/test/java/com/ceiba/estacionamiento/vehicles/model/vo/RulesParkingUCTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/test/java/com/ceiba/estacionamiento/vehicles/model/vo/RulesParkingUCTest.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sonar-project.properties" beforeDir="false" afterPath="$PROJECT_DIR$/sonar-project.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -397,22 +399,22 @@
       <screen x="0" y="25" width="1366" height="743" />
     </state>
     <state width="486" height="438" key="DebuggerActiveHint/1366.25.1792.1095/0.25.1366.743@0.25.1366.743" timestamp="1627671302950" />
-    <state width="1324" height="184" key="GridCell.Tab.0.bottom" timestamp="1627681031781">
+    <state width="1324" height="184" key="GridCell.Tab.0.bottom" timestamp="1627681066169">
       <screen x="0" y="25" width="1366" height="743" />
     </state>
-    <state width="1324" height="184" key="GridCell.Tab.0.bottom/1366.25.1792.1095/0.25.1366.743@0.25.1366.743" timestamp="1627681031781" />
-    <state width="1324" height="184" key="GridCell.Tab.0.center" timestamp="1627681031780">
+    <state width="1324" height="184" key="GridCell.Tab.0.bottom/1366.25.1792.1095/0.25.1366.743@0.25.1366.743" timestamp="1627681066169" />
+    <state width="1324" height="184" key="GridCell.Tab.0.center" timestamp="1627681066168">
       <screen x="0" y="25" width="1366" height="743" />
     </state>
-    <state width="1324" height="184" key="GridCell.Tab.0.center/1366.25.1792.1095/0.25.1366.743@0.25.1366.743" timestamp="1627681031780" />
-    <state width="1324" height="184" key="GridCell.Tab.0.left" timestamp="1627681031780">
+    <state width="1324" height="184" key="GridCell.Tab.0.center/1366.25.1792.1095/0.25.1366.743@0.25.1366.743" timestamp="1627681066168" />
+    <state width="1324" height="184" key="GridCell.Tab.0.left" timestamp="1627681066168">
       <screen x="0" y="25" width="1366" height="743" />
     </state>
-    <state width="1324" height="184" key="GridCell.Tab.0.left/1366.25.1792.1095/0.25.1366.743@0.25.1366.743" timestamp="1627681031780" />
-    <state width="1324" height="184" key="GridCell.Tab.0.right" timestamp="1627681031781">
+    <state width="1324" height="184" key="GridCell.Tab.0.left/1366.25.1792.1095/0.25.1366.743@0.25.1366.743" timestamp="1627681066168" />
+    <state width="1324" height="184" key="GridCell.Tab.0.right" timestamp="1627681066169">
       <screen x="0" y="25" width="1366" height="743" />
     </state>
-    <state width="1324" height="184" key="GridCell.Tab.0.right/1366.25.1792.1095/0.25.1366.743@0.25.1366.743" timestamp="1627681031781" />
+    <state width="1324" height="184" key="GridCell.Tab.0.right/1366.25.1792.1095/0.25.1366.743@0.25.1366.743" timestamp="1627681066169" />
     <state width="1324" height="203" key="GridCell.Tab.1.bottom" timestamp="1627680807103">
       <screen x="0" y="25" width="1366" height="743" />
     </state>
