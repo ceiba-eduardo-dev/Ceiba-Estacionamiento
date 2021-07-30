@@ -78,7 +78,6 @@
       <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_vehicle_exit.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_date_time.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/item_recycler_vehicles.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/test/java/com/ceiba/estacionamiento/vehicles/model/vo/DatePeriodTest.kt" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/app/src/test/java/com/ceiba/estacionamiento/vehicles/model/vo/PricesParkingUCTest.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.7.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.7.1/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.7.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.7.1/executionHistory/executionHistory.lock" afterDir="false" />
@@ -100,6 +99,7 @@
       <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_vehicles.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_vehicles.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/test/java/com/ceiba/estacionamiento/controller/BaseActivityTest.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/test/java/com/ceiba/estacionamiento/vehicles/model/vo/DatePeriodTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/test/java/com/ceiba/estacionamiento/vehicles/model/vo/DatePeriodTest.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/test/java/com/ceiba/estacionamiento/vehicles/model/vo/RulesParkingUCTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/test/java/com/ceiba/estacionamiento/vehicles/model/vo/RulesParkingUCTest.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -187,7 +187,7 @@
       <recent name="com.ceiba.estacionamiento.vehicles.controller.views.vehicle_entry" />
     </key>
   </component>
-  <component name="RunManager" selected="Android App.app">
+  <component name="RunManager" selected="Android JUnit.DatePeriodTest.testTotalHoursByDate">
     <configuration name="All in Estacionamiento" type="AndroidJUnit" factoryName="Android JUnit" temporary="true" nameIsGenerated="true">
       <module name="Estacionamiento" />
       <option name="PACKAGE_NAME" value="" />
@@ -402,38 +402,38 @@
       <screen x="0" y="25" width="1366" height="743" />
     </state>
     <state width="486" height="438" key="DebuggerActiveHint/1366.25.1792.1095/0.25.1366.743@0.25.1366.743" timestamp="1627671302950" />
-    <state width="1324" height="137" key="GridCell.Tab.0.bottom" timestamp="1627674456600">
+    <state width="1324" height="343" key="GridCell.Tab.0.bottom" timestamp="1627675805672">
       <screen x="0" y="25" width="1366" height="743" />
     </state>
-    <state width="1324" height="137" key="GridCell.Tab.0.bottom/1366.25.1792.1095/0.25.1366.743@0.25.1366.743" timestamp="1627674456600" />
-    <state width="1324" height="137" key="GridCell.Tab.0.center" timestamp="1627674456600">
+    <state width="1324" height="343" key="GridCell.Tab.0.bottom/1366.25.1792.1095/0.25.1366.743@0.25.1366.743" timestamp="1627675805672" />
+    <state width="1324" height="343" key="GridCell.Tab.0.center" timestamp="1627675805671">
       <screen x="0" y="25" width="1366" height="743" />
     </state>
-    <state width="1324" height="137" key="GridCell.Tab.0.center/1366.25.1792.1095/0.25.1366.743@0.25.1366.743" timestamp="1627674456600" />
-    <state width="1324" height="137" key="GridCell.Tab.0.left" timestamp="1627674456599">
+    <state width="1324" height="343" key="GridCell.Tab.0.center/1366.25.1792.1095/0.25.1366.743@0.25.1366.743" timestamp="1627675805671" />
+    <state width="1324" height="343" key="GridCell.Tab.0.left" timestamp="1627675805671">
       <screen x="0" y="25" width="1366" height="743" />
     </state>
-    <state width="1324" height="137" key="GridCell.Tab.0.left/1366.25.1792.1095/0.25.1366.743@0.25.1366.743" timestamp="1627674456599" />
-    <state width="1324" height="137" key="GridCell.Tab.0.right" timestamp="1627674456600">
+    <state width="1324" height="343" key="GridCell.Tab.0.left/1366.25.1792.1095/0.25.1366.743@0.25.1366.743" timestamp="1627675805671" />
+    <state width="1324" height="343" key="GridCell.Tab.0.right" timestamp="1627675805672">
       <screen x="0" y="25" width="1366" height="743" />
     </state>
-    <state width="1324" height="137" key="GridCell.Tab.0.right/1366.25.1792.1095/0.25.1366.743@0.25.1366.743" timestamp="1627674456600" />
-    <state width="1324" height="137" key="GridCell.Tab.1.bottom" timestamp="1627674507094">
+    <state width="1324" height="343" key="GridCell.Tab.0.right/1366.25.1792.1095/0.25.1366.743@0.25.1366.743" timestamp="1627675805672" />
+    <state width="1324" height="137" key="GridCell.Tab.1.bottom" timestamp="1627675711009">
       <screen x="0" y="25" width="1366" height="743" />
     </state>
-    <state width="1324" height="137" key="GridCell.Tab.1.bottom/1366.25.1792.1095/0.25.1366.743@0.25.1366.743" timestamp="1627674507094" />
-    <state width="1324" height="137" key="GridCell.Tab.1.center" timestamp="1627674507093">
+    <state width="1324" height="137" key="GridCell.Tab.1.bottom/1366.25.1792.1095/0.25.1366.743@0.25.1366.743" timestamp="1627675711009" />
+    <state width="1324" height="137" key="GridCell.Tab.1.center" timestamp="1627675711008">
       <screen x="0" y="25" width="1366" height="743" />
     </state>
-    <state width="1324" height="137" key="GridCell.Tab.1.center/1366.25.1792.1095/0.25.1366.743@0.25.1366.743" timestamp="1627674507093" />
-    <state width="1324" height="137" key="GridCell.Tab.1.left" timestamp="1627674507093">
+    <state width="1324" height="137" key="GridCell.Tab.1.center/1366.25.1792.1095/0.25.1366.743@0.25.1366.743" timestamp="1627675711008" />
+    <state width="1324" height="137" key="GridCell.Tab.1.left" timestamp="1627675711008">
       <screen x="0" y="25" width="1366" height="743" />
     </state>
-    <state width="1324" height="137" key="GridCell.Tab.1.left/1366.25.1792.1095/0.25.1366.743@0.25.1366.743" timestamp="1627674507093" />
-    <state width="1324" height="137" key="GridCell.Tab.1.right" timestamp="1627674507093">
+    <state width="1324" height="137" key="GridCell.Tab.1.left/1366.25.1792.1095/0.25.1366.743@0.25.1366.743" timestamp="1627675711008" />
+    <state width="1324" height="137" key="GridCell.Tab.1.right" timestamp="1627675711009">
       <screen x="0" y="25" width="1366" height="743" />
     </state>
-    <state width="1324" height="137" key="GridCell.Tab.1.right/1366.25.1792.1095/0.25.1366.743@0.25.1366.743" timestamp="1627674507093" />
+    <state width="1324" height="137" key="GridCell.Tab.1.right/1366.25.1792.1095/0.25.1366.743@0.25.1366.743" timestamp="1627675711009" />
     <state x="478" y="178" key="chooseDestDirectoryDialog" timestamp="1627666092390">
       <screen x="0" y="25" width="1366" height="743" />
     </state>
