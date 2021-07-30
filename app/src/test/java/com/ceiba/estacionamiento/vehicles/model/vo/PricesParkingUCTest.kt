@@ -18,9 +18,9 @@ class PricesParkingUCTest : TestCase() {
     @Test
     fun testAggregatePriceForCc() {
         val vehicle = Bike("2021-11-11", "PTP14F", 500, "12")
-        val price = pp.calculatePrice(26, vehicle)
+        val price = pp.calculatePrice(1, vehicle)
         val result = pp.aggregatePriceForCc(price, vehicle)
-        assertEquals(550, result)
+        assertEquals(2500, result)
     }
 
 }
