@@ -1,4 +1,4 @@
-package com.ceiba.estacionamiento.controller.di
+package com.ceiba.estacionamiento.shared.controller
 
 import android.app.Application
 import dagger.hilt.android.HiltAndroidApp

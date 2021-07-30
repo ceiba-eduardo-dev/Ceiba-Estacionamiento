@@ -3,14 +3,16 @@
     package="com.ceiba.estacionamiento">
 
     <application
-        android:name=".controller.di.BaseApplication"
+        android:name=".shared.controller.BaseApplication"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Estacionamiento">
-        <activity android:name=".controller.vehicles.VehiclesActivity">
+        <activity android:name=".vehicles.controller.views.VehicleExitActivity"></activity>
+        <activity android:name=".vehicles.controller.views.VehicleEntryActivity" />
+        <activity android:name=".vehicles.controller.views.VehiclesActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
