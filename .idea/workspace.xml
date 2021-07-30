@@ -79,6 +79,8 @@
       <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_date_time.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/item_recycler_vehicles.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/app/src/test/java/com/ceiba/estacionamiento/vehicles/model/vo/DatePeriodTest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/test/java/com/ceiba/estacionamiento/vehicles/model/vo/PricesParkingUCTest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/test/java/com/ceiba/estacionamiento/vehicles/model/vo/RulesParkingUCTest.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.7.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.7.1/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.7.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.7.1/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.7.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.7.1/fileHashes/fileHashes.bin" afterDir="false" />
@@ -138,7 +140,7 @@
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit3" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit3" value="junit.framework.TestCase" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/app/src/test/java/com/ceiba/estacionamiento/vehicles/model/vo" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/src/main/java/com/ceiba/estacionamiento/vehicles/model/vo" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/src/test/java/com/ceiba/estacionamiento/vehicles/model/vo" />
     <property name="memory.settings.postsync.last.time.stamp" value="1627590010743" />
     <property name="project.structure.last.edited" value="SDK Location" />
     <property name="project.structure.proportion" value="0.17" />
@@ -170,6 +172,7 @@
       <recent name="com.ceiba.estacionamiento.vehicles" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/src/test/java/com/ceiba/estacionamiento/vehicles/model/vo" />
       <recent name="$PROJECT_DIR$/app/src/main/java/com/ceiba/estacionamiento/vehicles/model/vo" />
       <recent name="$PROJECT_DIR$/app/src/main/java/com/ceiba/estacionamiento/vehicles/presenter/vehicle_entry" />
       <recent name="$PROJECT_DIR$/app/src/main/java/com/ceiba/estacionamiento/shared/controller/extensions" />
@@ -399,38 +402,38 @@
       <screen x="0" y="25" width="1366" height="743" />
     </state>
     <state width="486" height="438" key="DebuggerActiveHint/1366.25.1792.1095/0.25.1366.743@0.25.1366.743" timestamp="1627671302950" />
-    <state width="1324" height="137" key="GridCell.Tab.0.bottom" timestamp="1627674355129">
+    <state width="1324" height="137" key="GridCell.Tab.0.bottom" timestamp="1627674456600">
       <screen x="0" y="25" width="1366" height="743" />
     </state>
-    <state width="1324" height="137" key="GridCell.Tab.0.bottom/1366.25.1792.1095/0.25.1366.743@0.25.1366.743" timestamp="1627674355129" />
-    <state width="1324" height="137" key="GridCell.Tab.0.center" timestamp="1627674355128">
+    <state width="1324" height="137" key="GridCell.Tab.0.bottom/1366.25.1792.1095/0.25.1366.743@0.25.1366.743" timestamp="1627674456600" />
+    <state width="1324" height="137" key="GridCell.Tab.0.center" timestamp="1627674456600">
       <screen x="0" y="25" width="1366" height="743" />
     </state>
-    <state width="1324" height="137" key="GridCell.Tab.0.center/1366.25.1792.1095/0.25.1366.743@0.25.1366.743" timestamp="1627674355128" />
-    <state width="1324" height="137" key="GridCell.Tab.0.left" timestamp="1627674355128">
+    <state width="1324" height="137" key="GridCell.Tab.0.center/1366.25.1792.1095/0.25.1366.743@0.25.1366.743" timestamp="1627674456600" />
+    <state width="1324" height="137" key="GridCell.Tab.0.left" timestamp="1627674456599">
       <screen x="0" y="25" width="1366" height="743" />
     </state>
-    <state width="1324" height="137" key="GridCell.Tab.0.left/1366.25.1792.1095/0.25.1366.743@0.25.1366.743" timestamp="1627674355128" />
-    <state width="1324" height="137" key="GridCell.Tab.0.right" timestamp="1627674355129">
+    <state width="1324" height="137" key="GridCell.Tab.0.left/1366.25.1792.1095/0.25.1366.743@0.25.1366.743" timestamp="1627674456599" />
+    <state width="1324" height="137" key="GridCell.Tab.0.right" timestamp="1627674456600">
       <screen x="0" y="25" width="1366" height="743" />
     </state>
-    <state width="1324" height="137" key="GridCell.Tab.0.right/1366.25.1792.1095/0.25.1366.743@0.25.1366.743" timestamp="1627674355129" />
-    <state width="1324" height="137" key="GridCell.Tab.1.bottom" timestamp="1627674389731">
+    <state width="1324" height="137" key="GridCell.Tab.0.right/1366.25.1792.1095/0.25.1366.743@0.25.1366.743" timestamp="1627674456600" />
+    <state width="1324" height="137" key="GridCell.Tab.1.bottom" timestamp="1627674507094">
       <screen x="0" y="25" width="1366" height="743" />
     </state>
-    <state width="1324" height="137" key="GridCell.Tab.1.bottom/1366.25.1792.1095/0.25.1366.743@0.25.1366.743" timestamp="1627674389731" />
-    <state width="1324" height="137" key="GridCell.Tab.1.center" timestamp="1627674389731">
+    <state width="1324" height="137" key="GridCell.Tab.1.bottom/1366.25.1792.1095/0.25.1366.743@0.25.1366.743" timestamp="1627674507094" />
+    <state width="1324" height="137" key="GridCell.Tab.1.center" timestamp="1627674507093">
       <screen x="0" y="25" width="1366" height="743" />
     </state>
-    <state width="1324" height="137" key="GridCell.Tab.1.center/1366.25.1792.1095/0.25.1366.743@0.25.1366.743" timestamp="1627674389731" />
-    <state width="1324" height="137" key="GridCell.Tab.1.left" timestamp="1627674389731">
+    <state width="1324" height="137" key="GridCell.Tab.1.center/1366.25.1792.1095/0.25.1366.743@0.25.1366.743" timestamp="1627674507093" />
+    <state width="1324" height="137" key="GridCell.Tab.1.left" timestamp="1627674507093">
       <screen x="0" y="25" width="1366" height="743" />
     </state>
-    <state width="1324" height="137" key="GridCell.Tab.1.left/1366.25.1792.1095/0.25.1366.743@0.25.1366.743" timestamp="1627674389731" />
-    <state width="1324" height="137" key="GridCell.Tab.1.right" timestamp="1627674389731">
+    <state width="1324" height="137" key="GridCell.Tab.1.left/1366.25.1792.1095/0.25.1366.743@0.25.1366.743" timestamp="1627674507093" />
+    <state width="1324" height="137" key="GridCell.Tab.1.right" timestamp="1627674507093">
       <screen x="0" y="25" width="1366" height="743" />
     </state>
-    <state width="1324" height="137" key="GridCell.Tab.1.right/1366.25.1792.1095/0.25.1366.743@0.25.1366.743" timestamp="1627674389731" />
+    <state width="1324" height="137" key="GridCell.Tab.1.right/1366.25.1792.1095/0.25.1366.743@0.25.1366.743" timestamp="1627674507093" />
     <state x="478" y="178" key="chooseDestDirectoryDialog" timestamp="1627666092390">
       <screen x="0" y="25" width="1366" height="743" />
     </state>
@@ -451,41 +454,5 @@
       <screen x="0" y="25" width="1366" height="743" />
     </state>
     <state x="348" y="92" width="670" height="676" key="search.everywhere.popup/1366.25.1792.1095/0.25.1366.743@0.25.1366.743" timestamp="1627523656254" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/com/ceiba/estacionamiento/vehicles/controller/views/VehicleExitActivity.kt</url>
-          <line>38</line>
-          <option name="timeStamp" value="72" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/com/ceiba/estacionamiento/vehicles/presenter/vehicle_exit/VehicleExitPresenter.kt</url>
-          <line>22</line>
-          <option name="timeStamp" value="73" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/com/ceiba/estacionamiento/vehicles/presenter/vehicle_exit/VehicleExitPresenter.kt</url>
-          <line>26</line>
-          <option name="timeStamp" value="74" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/com/ceiba/estacionamiento/vehicles/presenter/vehicle_exit/VehicleExitPresenter.kt</url>
-          <line>28</line>
-          <option name="timeStamp" value="75" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/com/ceiba/estacionamiento/vehicles/presenter/vehicle_exit/VehicleExitPresenter.kt</url>
-          <line>29</line>
-          <option name="timeStamp" value="76" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/com/ceiba/estacionamiento/vehicles/presenter/vehicle_exit/VehicleExitPresenter.kt</url>
-          <line>30</line>
-          <option name="timeStamp" value="77" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>
