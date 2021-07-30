@@ -1,5 +1,6 @@
 package com.ceiba.estacionamiento.vehicles.model.vo
 
+import com.ceiba.estacionamiento.vehicles.model.valueobjects.DatePeriod
 import junit.framework.TestCase
 
 class DatePeriodTest : TestCase() {

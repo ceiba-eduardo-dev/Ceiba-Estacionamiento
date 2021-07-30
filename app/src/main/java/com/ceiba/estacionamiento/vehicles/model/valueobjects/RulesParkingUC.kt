@@ -1,4 +1,4 @@
-package com.ceiba.estacionamiento.vehicles.model.vo
+package com.ceiba.estacionamiento.vehicles.model.valueobjects
 
 import com.ceiba.estacionamiento.shared.const.ConstParking.Companion.bike
 import com.ceiba.estacionamiento.shared.const.ConstParking.Companion.car
@@ -12,8 +12,8 @@ class RulesParkingUC {
      * de lo contrario debe mostrar un mensaje de que no esta autorizado a ingresar.
      */
     fun validateAccessForDay(day: String?, type: String, vehicleEntity: VehicleEntity): Boolean {
-        val letterInitial = vehicleEntity.plate[0].toUpperCase()
-        return !(type == car && day == monday && letterInitial.equals("A"))
+        val letterInitial = vehicleEntity.plate[0].uppercase()
+        return (type == car && day == monday && letterInitial == "A")
     }
 
     /**

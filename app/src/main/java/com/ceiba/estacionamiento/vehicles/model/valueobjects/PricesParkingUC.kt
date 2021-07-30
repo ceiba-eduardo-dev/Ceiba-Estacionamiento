@@ -1,4 +1,4 @@
-package com.ceiba.estacionamiento.vehicles.model.vo
+package com.ceiba.estacionamiento.vehicles.model.valueobjects
 
 import com.ceiba.estacionamiento.shared.const.ConstParking.Companion.bike
 import com.ceiba.estacionamiento.shared.const.ConstParking.Companion.car

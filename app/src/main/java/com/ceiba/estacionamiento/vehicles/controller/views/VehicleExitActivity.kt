@@ -3,15 +3,14 @@ package com.ceiba.estacionamiento.vehicles.controller.views
 import android.content.Intent
 import android.os.Build
 import androidx.annotation.RequiresApi
-import androidx.lifecycle.LifecycleOwner
 import androidx.viewbinding.ViewBinding
 import com.ceiba.estacionamiento.R
 import com.ceiba.estacionamiento.databinding.ActivityVehicleExitBinding
 import com.ceiba.estacionamiento.shared.const.ConstParking.Companion.bike
 import com.ceiba.estacionamiento.shared.controller.BaseActivity
 import com.ceiba.estacionamiento.shared.controller.components.DatePickerComponent
-import com.ceiba.estacionamiento.vehicles.model.vo.DatePeriod
-import com.ceiba.estacionamiento.vehicles.model.vo.PricesParkingUC
+import com.ceiba.estacionamiento.vehicles.model.valueobjects.DatePeriod
+import com.ceiba.estacionamiento.vehicles.model.valueobjects.PricesParkingUC
 import com.ceiba.estacionamiento.vehicles.presenter.vehicle_exit.VehicleExitPresenter
 import com.ceiba.estacionamiento.vehicles.presenter.vehicle_exit.VehicleExitView
 import dagger.hilt.android.AndroidEntryPoint

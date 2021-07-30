@@ -1,4 +1,4 @@
-package com.ceiba.estacionamiento.vehicles.model.vo
+package com.ceiba.estacionamiento.vehicles.model.valueobjects
 
 import android.os.Build
 import androidx.annotation.RequiresApi
