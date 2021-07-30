@@ -1,10 +1,9 @@
-package com.ceiba.estacionamiento.domain.uc
+package com.ceiba.estacionamiento.vehicles.model.vo
 
 import com.ceiba.estacionamiento.shared.const.ConstParking.Companion.car
 import com.ceiba.estacionamiento.shared.const.ConstParking.Companion.monday
 import com.ceiba.estacionamiento.vehicles.model.data_access.entities.Car
 import com.ceiba.estacionamiento.vehicles.model.data_access.entities.VehicleEntity
-import com.ceiba.estacionamiento.vehicles.model.vo.RulesParkingUC
 import junit.framework.TestCase
 import org.junit.Test
 
