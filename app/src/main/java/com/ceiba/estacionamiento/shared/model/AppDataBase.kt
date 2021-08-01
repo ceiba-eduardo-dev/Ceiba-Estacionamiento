@@ -5,8 +5,8 @@ import androidx.room.Database
 import androidx.room.Room
 import androidx.room.RoomDatabase
 import com.ceiba.estacionamiento.shared.model.BuildConfig.DataBaseName
-import com.ceiba.estacionamiento.vehicles.model.data_access.daos.VehicleDao
-import com.ceiba.estacionamiento.vehicles.model.data_access.entities.VehicleEntity
+import com.ceiba.estacionamiento.vehicles.model.dataaccess.daos.VehicleDao
+import com.ceiba.estacionamiento.vehicles.model.dataaccess.entities.VehicleEntity
 
 @Database(
     entities = [VehicleEntity::class],

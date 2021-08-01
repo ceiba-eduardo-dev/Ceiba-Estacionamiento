@@ -8,7 +8,7 @@ import com.ceiba.estacionamiento.shared.const.ConstParking.Companion.priceBikeHo
 import com.ceiba.estacionamiento.shared.const.ConstParking.Companion.priceCarDay
 import com.ceiba.estacionamiento.shared.const.ConstParking.Companion.priceCarHour
 import com.ceiba.estacionamiento.shared.const.ConstParking.Companion.totalHoursDay
-import com.ceiba.estacionamiento.vehicles.model.data_access.entities.VehicleEntity
+import com.ceiba.estacionamiento.vehicles.model.dataaccess.entities.VehicleEntity
 
 class PricesParkingUC {
     fun calculatePrice(hours: Int, vehicle: VehicleEntity): Int {

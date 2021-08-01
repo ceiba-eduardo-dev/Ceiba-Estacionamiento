@@ -1,10 +1,10 @@
-package com.ceiba.estacionamiento.vehicles.model.data_access.daos
+package com.ceiba.estacionamiento.vehicles.model.dataaccess.daos
 
 import androidx.room.Dao
 import androidx.room.Insert
 import androidx.room.OnConflictStrategy
 import androidx.room.Query
-import com.ceiba.estacionamiento.vehicles.model.data_access.entities.VehicleEntity
+import com.ceiba.estacionamiento.vehicles.model.dataaccess.entities.VehicleEntity
 
 @Dao
 interface VehicleDao {

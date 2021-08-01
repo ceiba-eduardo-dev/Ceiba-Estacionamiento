@@ -1,7 +1,7 @@
 package com.ceiba.estacionamiento.vehicles.controller.di.module
 
 import android.content.Context
-import com.ceiba.estacionamiento.vehicles.model.data_access.daos.VehicleDao
+import com.ceiba.estacionamiento.vehicles.model.dataaccess.daos.VehicleDao
 import com.ceiba.estacionamiento.shared.model.AppDataBase
 import dagger.Module
 import dagger.Provides

@@ -1,10 +1,9 @@
-package com.ceiba.estacionamiento.vehicles.model.data_access.entities
+package com.ceiba.estacionamiento.vehicles.model.dataaccess.entities
 
 import androidx.room.ColumnInfo
 import androidx.room.Entity
 import androidx.room.PrimaryKey
 import java.io.Serializable
-import java.util.*
 
 @Entity(tableName = "vehicles")
 open class VehicleEntity : Serializable {

@@ -1,8 +1,7 @@
-package com.ceiba.estacionamiento.vehicles.model.data_access.entities
+package com.ceiba.estacionamiento.vehicles.model.dataaccess.entities
 
 import com.ceiba.estacionamiento.shared.const.ConstParking
 import com.ceiba.estacionamiento.shared.const.ConstParking.Companion.bike
-import java.util.*
 
 class Bike : VehicleEntity {
     constructor(date: String, plate: String, cylinder: Int, hour: String) {

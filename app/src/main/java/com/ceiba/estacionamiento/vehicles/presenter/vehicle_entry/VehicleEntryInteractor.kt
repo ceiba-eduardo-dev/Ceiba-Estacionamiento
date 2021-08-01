@@ -3,8 +3,7 @@ package com.ceiba.estacionamiento.vehicles.presenter.vehicle_entry
 import android.database.sqlite.SQLiteConstraintException
 import androidx.lifecycle.asLiveData
 import com.ceiba.estacionamiento.shared.model.utils.Resource
-import com.ceiba.estacionamiento.vehicles.model.data_access.daos.VehicleDao
-import com.ceiba.estacionamiento.vehicles.model.data_access.entities.VehicleEntity
+import com.ceiba.estacionamiento.vehicles.model.dataaccess.entities.VehicleEntity
 import com.ceiba.estacionamiento.vehicles.model.repositories.VehicleRepository
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.flow.catch

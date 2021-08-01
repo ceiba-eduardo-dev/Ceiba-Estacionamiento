@@ -6,7 +6,7 @@ import androidx.viewbinding.ViewBinding
 import com.ceiba.estacionamiento.shared.controller.BaseActivity
 import com.ceiba.estacionamiento.databinding.ActivityVehiclesBinding
 import com.ceiba.estacionamiento.vehicles.controller.adapters.VehiclesAdapter
-import com.ceiba.estacionamiento.vehicles.model.data_access.entities.VehicleEntity
+import com.ceiba.estacionamiento.vehicles.model.dataaccess.entities.VehicleEntity
 import com.ceiba.estacionamiento.vehicles.presenter.vehicles.VehiclesPresenter
 import com.ceiba.estacionamiento.vehicles.presenter.vehicles.VehiclesView
 import dagger.hilt.android.AndroidEntryPoint

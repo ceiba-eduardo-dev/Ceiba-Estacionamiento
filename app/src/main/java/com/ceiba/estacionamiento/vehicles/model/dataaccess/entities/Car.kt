@@ -1,7 +1,6 @@
-package com.ceiba.estacionamiento.vehicles.model.data_access.entities
+package com.ceiba.estacionamiento.vehicles.model.dataaccess.entities
 
 import com.ceiba.estacionamiento.shared.const.ConstParking.Companion.car
-import java.util.*
 
 class Car : VehicleEntity {
     constructor(date: String, plate: String, hour: String) {

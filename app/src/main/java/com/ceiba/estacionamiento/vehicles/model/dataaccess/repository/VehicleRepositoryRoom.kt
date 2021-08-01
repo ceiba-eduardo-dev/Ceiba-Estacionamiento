@@ -1,7 +1,7 @@
-package com.ceiba.estacionamiento.vehicles.model.data_access.repository
+package com.ceiba.estacionamiento.vehicles.model.dataaccess.repository
 
-import com.ceiba.estacionamiento.vehicles.model.data_access.daos.VehicleDao
-import com.ceiba.estacionamiento.vehicles.model.data_access.entities.VehicleEntity
+import com.ceiba.estacionamiento.vehicles.model.dataaccess.daos.VehicleDao
+import com.ceiba.estacionamiento.vehicles.model.dataaccess.entities.VehicleEntity
 import com.ceiba.estacionamiento.vehicles.model.repositories.VehicleRepository
 import javax.inject.Inject
 

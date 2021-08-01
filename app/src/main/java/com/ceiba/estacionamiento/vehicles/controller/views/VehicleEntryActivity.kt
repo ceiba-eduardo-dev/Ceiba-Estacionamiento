@@ -12,9 +12,9 @@ import com.ceiba.estacionamiento.shared.const.ConstParking.Companion.car
 import com.ceiba.estacionamiento.shared.controller.BaseActivity
 import com.ceiba.estacionamiento.shared.controller.components.DatePickerComponent
 import com.ceiba.estacionamiento.shared.controller.extensions.showMessageContinue
-import com.ceiba.estacionamiento.vehicles.model.data_access.entities.Bike
-import com.ceiba.estacionamiento.vehicles.model.data_access.entities.Car
-import com.ceiba.estacionamiento.vehicles.model.data_access.entities.VehicleEntity
+import com.ceiba.estacionamiento.vehicles.model.dataaccess.entities.Bike
+import com.ceiba.estacionamiento.vehicles.model.dataaccess.entities.Car
+import com.ceiba.estacionamiento.vehicles.model.dataaccess.entities.VehicleEntity
 import com.ceiba.estacionamiento.vehicles.presenter.vehicle_entry.VehicleEntryPresenter
 import com.ceiba.estacionamiento.vehicles.presenter.vehicle_entry.VehicleEntryView
 import dagger.hilt.android.AndroidEntryPoint

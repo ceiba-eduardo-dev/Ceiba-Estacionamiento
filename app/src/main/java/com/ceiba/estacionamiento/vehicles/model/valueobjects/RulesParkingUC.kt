@@ -3,7 +3,7 @@ package com.ceiba.estacionamiento.vehicles.model.valueobjects
 import com.ceiba.estacionamiento.shared.const.ConstParking.Companion.bike
 import com.ceiba.estacionamiento.shared.const.ConstParking.Companion.car
 import com.ceiba.estacionamiento.shared.const.ConstParking.Companion.monday
-import com.ceiba.estacionamiento.vehicles.model.data_access.entities.VehicleEntity
+import com.ceiba.estacionamiento.vehicles.model.dataaccess.entities.VehicleEntity
 
 class RulesParkingUC {
 

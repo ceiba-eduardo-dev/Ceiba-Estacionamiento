@@ -12,7 +12,7 @@ import com.ceiba.estacionamiento.R
 import com.ceiba.estacionamiento.shared.const.ConstParking.Companion.car
 import com.ceiba.estacionamiento.shared.const.ConstParking.Companion.vehicleSerializable
 import com.ceiba.estacionamiento.vehicles.controller.views.VehicleExitActivity
-import com.ceiba.estacionamiento.vehicles.model.data_access.entities.VehicleEntity
+import com.ceiba.estacionamiento.vehicles.model.dataaccess.entities.VehicleEntity
 
 class VehiclesAdapter :
     androidx.recyclerview.widget.RecyclerView.Adapter<VehiclesAdapter.VehicleHolder>() {

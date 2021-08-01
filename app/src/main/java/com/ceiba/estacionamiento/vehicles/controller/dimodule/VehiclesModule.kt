@@ -1,6 +1,6 @@
 package com.ceiba.estacionamiento.vehicles.controller.dimodule
 
-import com.ceiba.estacionamiento.vehicles.model.data_access.repository.VehicleRepositoryRoom
+import com.ceiba.estacionamiento.vehicles.model.dataaccess.repository.VehicleRepositoryRoom
 import com.ceiba.estacionamiento.vehicles.model.repositories.VehicleRepository
 import dagger.Binds
 import dagger.Module

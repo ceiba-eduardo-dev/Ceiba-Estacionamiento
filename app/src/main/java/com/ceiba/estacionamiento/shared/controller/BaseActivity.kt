@@ -6,7 +6,7 @@ import androidx.viewbinding.ViewBinding
 import com.ceiba.estacionamiento.shared.const.ConstParking.Companion.vehicleSerializable
 import com.ceiba.estacionamiento.shared.controller.extensions.showMessage
 import com.ceiba.estacionamiento.shared.presenter.BaseView
-import com.ceiba.estacionamiento.vehicles.model.data_access.entities.VehicleEntity
+import com.ceiba.estacionamiento.vehicles.model.dataaccess.entities.VehicleEntity
 import dagger.hilt.android.AndroidEntryPoint
 
 @AndroidEntryPoint

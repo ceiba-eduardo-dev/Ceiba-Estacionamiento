@@ -4,7 +4,7 @@ import androidx.lifecycle.LiveData
 import androidx.lifecycle.Observer
 import com.ceiba.estacionamiento.shared.model.utils.Resource
 import com.ceiba.estacionamiento.shared.model.utils.Status
-import com.ceiba.estacionamiento.vehicles.model.data_access.entities.VehicleEntity
+import com.ceiba.estacionamiento.vehicles.model.dataaccess.entities.VehicleEntity
 import dagger.hilt.android.scopes.ActivityScoped
 import javax.inject.Inject
 

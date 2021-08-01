@@ -1,6 +1,6 @@
 package com.ceiba.estacionamiento.vehicles.model.vo
 
-import com.ceiba.estacionamiento.vehicles.model.data_access.entities.Bike
+import com.ceiba.estacionamiento.vehicles.model.dataaccess.entities.Bike
 import com.ceiba.estacionamiento.vehicles.model.valueobjects.PricesParkingUC
 import junit.framework.TestCase
 import org.junit.Test

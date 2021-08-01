@@ -32,82 +32,47 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="024b0d93-579a-4cf4-b07b-e1898a70e557" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/assetWizardSettings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/ceiba/estacionamiento/shared/const/ConstParking.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/ceiba/estacionamiento/shared/controller/components/DatePickerComponent.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/ceiba/estacionamiento/shared/controller/extensions/BaseViewActivity.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/ceiba/estacionamiento/shared/controller/extensions/StringExtensions.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/ceiba/estacionamiento/shared/controller/extensions/ViewExtensions.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/ceiba/estacionamiento/shared/model/AppDataBase.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/ceiba/estacionamiento/shared/model/BuildConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/ceiba/estacionamiento/shared/model/di_database/DataBaseModule.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/ceiba/estacionamiento/shared/model/utils/DateFormatParking.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/ceiba/estacionamiento/shared/model/utils/Resource.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/ceiba/estacionamiento/shared/model/utils/Status.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/ceiba/estacionamiento/shared/model/vo/DateTimeParking.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/ceiba/estacionamiento/shared/presenter/BaseView.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/ceiba/estacionamiento/vehicles/controller/adapters/VehiclesAdapter.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/ceiba/estacionamiento/vehicles/controller/dimodule/VehiclesModule.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/ceiba/estacionamiento/vehicles/controller/views/VehicleEntryActivity.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/ceiba/estacionamiento/vehicles/model/data_access/daos/VehicleDao.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/ceiba/estacionamiento/vehicles/model/data_access/entities/Bike.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/ceiba/estacionamiento/vehicles/model/data_access/entities/Car.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/ceiba/estacionamiento/vehicles/model/data_access/entities/VehicleEntity.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/ceiba/estacionamiento/vehicles/model/data_access/repository/VehicleRepositoryRoom.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/ceiba/estacionamiento/vehicles/model/repositories/VehicleRepository.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/ceiba/estacionamiento/vehicles/presenter/vehicle_entry/OnVehicleEntryListener.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/ceiba/estacionamiento/vehicles/presenter/vehicle_entry/VehicleEntryInteractor.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/ceiba/estacionamiento/vehicles/presenter/vehicle_entry/VehicleEntryPresenter.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/ceiba/estacionamiento/vehicles/presenter/vehicle_entry/VehicleEntryView.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/ceiba/estacionamiento/vehicles/presenter/vehicle_exit/OnVehicleExitListener.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/ceiba/estacionamiento/vehicles/presenter/vehicle_exit/VehicleExitInteractor.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/ceiba/estacionamiento/vehicles/presenter/vehicle_exit/VehicleExitPresenter.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/ceiba/estacionamiento/vehicles/presenter/vehicle_exit/VehicleExitView.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/ceiba/estacionamiento/vehicles/presenter/vehicles/OnVehiclesListener.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/ceiba/estacionamiento/vehicles/presenter/vehicles/VehicleInteractor.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/ceiba/estacionamiento/vehicles/presenter/vehicles/VehiclesPresenter.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/ceiba/estacionamiento/vehicles/presenter/vehicles/VehiclesView.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_add.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_bike.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_car.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_vehicle_entry.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_vehicle_exit.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_date_time.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/item_recycler_vehicles.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.7.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.7.1/executionHistory/executionHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.7.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.7.1/executionHistory/executionHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.7.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.7.1/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.7.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.7.1/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.7.1/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.7.1/fileHashes/resourceHashesCache.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.7.1/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.7.1/javaCompile/classAnalysis.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.7.1/javaCompile/jarAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.7.1/javaCompile/jarAnalysis.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.7.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.7.1/javaCompile/javaCompile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.7.1/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.7.1/javaCompile/taskHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/ceiba/estacionamiento/vehicles/model/dataaccess/daos/VehicleDao.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/ceiba/estacionamiento/vehicles/model/dataaccess/entities/Bike.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/ceiba/estacionamiento/vehicles/model/dataaccess/entities/Car.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/ceiba/estacionamiento/vehicles/model/dataaccess/entities/VehicleEntity.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/ceiba/estacionamiento/vehicles/model/dataaccess/repository/VehicleRepositoryRoom.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ceiba/estacionamiento/controller/BaseActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/ceiba/estacionamiento/shared/controller/BaseActivity.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ceiba/estacionamiento/controller/di/BaseApplication.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/ceiba/estacionamiento/shared/controller/BaseApplication.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ceiba/estacionamiento/controller/vehicles/VehiclesActivity.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ceiba/estacionamiento/vehicles/controller/views/VehicleExitActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/ceiba/estacionamiento/vehicles/controller/views/VehicleExitActivity.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ceiba/estacionamiento/vehicles/model/vo/DatePeriod.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/ceiba/estacionamiento/vehicles/model/valueobjects/DatePeriod.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ceiba/estacionamiento/vehicles/model/vo/PricesParkingUC.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/ceiba/estacionamiento/vehicles/model/valueobjects/PricesParkingUC.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ceiba/estacionamiento/vehicles/model/vo/RulesParkingUC.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/ceiba/estacionamiento/vehicles/model/valueobjects/RulesParkingUC.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_vehicles.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_vehicles.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/test/java/com/ceiba/estacionamiento/controller/BaseActivityTest.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/test/java/com/ceiba/estacionamiento/vehicles/model/vo/DatePeriodTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/test/java/com/ceiba/estacionamiento/vehicles/model/vo/DatePeriodTest.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/app/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/androidTest/java/com/ceiba/estacionamiento/ExampleInstrumentedTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/androidTest/java/com/ceiba/estacionamiento/ExampleInstrumentedTest.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ceiba/estacionamiento/shared/controller/BaseActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/ceiba/estacionamiento/shared/controller/BaseActivity.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ceiba/estacionamiento/shared/model/AppDataBase.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/ceiba/estacionamiento/shared/model/AppDataBase.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ceiba/estacionamiento/shared/model/di_database/DataBaseModule.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/ceiba/estacionamiento/shared/model/di_database/DataBaseModule.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ceiba/estacionamiento/vehicles/controller/adapters/VehiclesAdapter.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/ceiba/estacionamiento/vehicles/controller/adapters/VehiclesAdapter.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ceiba/estacionamiento/vehicles/controller/dimodule/VehiclesModule.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/ceiba/estacionamiento/vehicles/controller/dimodule/VehiclesModule.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ceiba/estacionamiento/vehicles/controller/views/VehicleEntryActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/ceiba/estacionamiento/vehicles/controller/views/VehicleEntryActivity.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ceiba/estacionamiento/vehicles/controller/views/VehiclesActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/ceiba/estacionamiento/vehicles/controller/views/VehiclesActivity.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ceiba/estacionamiento/vehicles/model/data_access/daos/VehicleDao.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ceiba/estacionamiento/vehicles/model/data_access/entities/Bike.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ceiba/estacionamiento/vehicles/model/data_access/entities/Car.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ceiba/estacionamiento/vehicles/model/data_access/entities/VehicleEntity.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ceiba/estacionamiento/vehicles/model/data_access/repository/VehicleRepositoryRoom.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ceiba/estacionamiento/vehicles/model/repositories/VehicleRepository.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/ceiba/estacionamiento/vehicles/model/repositories/VehicleRepository.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ceiba/estacionamiento/vehicles/model/valueobjects/PricesParkingUC.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/ceiba/estacionamiento/vehicles/model/valueobjects/PricesParkingUC.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ceiba/estacionamiento/vehicles/model/valueobjects/RulesParkingUC.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/ceiba/estacionamiento/vehicles/model/valueobjects/RulesParkingUC.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ceiba/estacionamiento/vehicles/presenter/vehicle_entry/OnVehicleEntryListener.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/ceiba/estacionamiento/vehicles/presenter/vehicle_entry/OnVehicleEntryListener.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ceiba/estacionamiento/vehicles/presenter/vehicle_entry/VehicleEntryInteractor.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/ceiba/estacionamiento/vehicles/presenter/vehicle_entry/VehicleEntryInteractor.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ceiba/estacionamiento/vehicles/presenter/vehicle_entry/VehicleEntryPresenter.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/ceiba/estacionamiento/vehicles/presenter/vehicle_entry/VehicleEntryPresenter.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ceiba/estacionamiento/vehicles/presenter/vehicles/OnVehiclesListener.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/ceiba/estacionamiento/vehicles/presenter/vehicles/OnVehiclesListener.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ceiba/estacionamiento/vehicles/presenter/vehicles/VehicleInteractor.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/ceiba/estacionamiento/vehicles/presenter/vehicles/VehicleInteractor.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ceiba/estacionamiento/vehicles/presenter/vehicles/VehiclesPresenter.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/ceiba/estacionamiento/vehicles/presenter/vehicles/VehiclesPresenter.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ceiba/estacionamiento/vehicles/presenter/vehicles/VehiclesView.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/ceiba/estacionamiento/vehicles/presenter/vehicles/VehiclesView.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/test/java/com/ceiba/estacionamiento/vehicles/model/vo/PricesParkingUCTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/test/java/com/ceiba/estacionamiento/vehicles/model/vo/PricesParkingUCTest.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/test/java/com/ceiba/estacionamiento/vehicles/model/vo/RulesParkingUCTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/test/java/com/ceiba/estacionamiento/vehicles/model/vo/RulesParkingUCTest.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sonar-project.properties" beforeDir="false" afterPath="$PROJECT_DIR$/sonar-project.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[SerialNumber@ZY2277335K]" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[]" />
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
@@ -187,7 +152,7 @@
       <recent name="com.ceiba.estacionamiento.vehicles.controller.views.vehicle_entry" />
     </key>
   </component>
-  <component name="RunManager" selected="Android JUnit.estacionamiento in Estacionamiento.app">
+  <component name="RunManager" selected="Android App.app">
     <configuration name="All in Estacionamiento" type="AndroidJUnit" factoryName="Android JUnit" temporary="true" nameIsGenerated="true">
       <module name="Estacionamiento" />
       <option name="PACKAGE_NAME" value="" />
@@ -353,6 +318,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="100" y="125" width="1166" height="543" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1627680736726">
@@ -399,38 +365,38 @@
       <screen x="0" y="25" width="1366" height="743" />
     </state>
     <state width="486" height="438" key="DebuggerActiveHint/1366.25.1792.1095/0.25.1366.743@0.25.1366.743" timestamp="1627671302950" />
-    <state width="1324" height="184" key="GridCell.Tab.0.bottom" timestamp="1627681066169">
+    <state width="1324" height="184" key="GridCell.Tab.0.bottom" timestamp="1627689276506">
       <screen x="0" y="25" width="1366" height="743" />
     </state>
-    <state width="1324" height="184" key="GridCell.Tab.0.bottom/1366.25.1792.1095/0.25.1366.743@0.25.1366.743" timestamp="1627681066169" />
-    <state width="1324" height="184" key="GridCell.Tab.0.center" timestamp="1627681066168">
+    <state width="1324" height="184" key="GridCell.Tab.0.bottom/1366.25.1792.1095/0.25.1366.743@0.25.1366.743" timestamp="1627689276506" />
+    <state width="1324" height="184" key="GridCell.Tab.0.center" timestamp="1627689276506">
       <screen x="0" y="25" width="1366" height="743" />
     </state>
-    <state width="1324" height="184" key="GridCell.Tab.0.center/1366.25.1792.1095/0.25.1366.743@0.25.1366.743" timestamp="1627681066168" />
-    <state width="1324" height="184" key="GridCell.Tab.0.left" timestamp="1627681066168">
+    <state width="1324" height="184" key="GridCell.Tab.0.center/1366.25.1792.1095/0.25.1366.743@0.25.1366.743" timestamp="1627689276506" />
+    <state width="1324" height="184" key="GridCell.Tab.0.left" timestamp="1627689276505">
       <screen x="0" y="25" width="1366" height="743" />
     </state>
-    <state width="1324" height="184" key="GridCell.Tab.0.left/1366.25.1792.1095/0.25.1366.743@0.25.1366.743" timestamp="1627681066168" />
-    <state width="1324" height="184" key="GridCell.Tab.0.right" timestamp="1627681066169">
+    <state width="1324" height="184" key="GridCell.Tab.0.left/1366.25.1792.1095/0.25.1366.743@0.25.1366.743" timestamp="1627689276505" />
+    <state width="1324" height="184" key="GridCell.Tab.0.right" timestamp="1627689276506">
       <screen x="0" y="25" width="1366" height="743" />
     </state>
-    <state width="1324" height="184" key="GridCell.Tab.0.right/1366.25.1792.1095/0.25.1366.743@0.25.1366.743" timestamp="1627681066169" />
-    <state width="1324" height="203" key="GridCell.Tab.1.bottom" timestamp="1627680807103">
+    <state width="1324" height="184" key="GridCell.Tab.0.right/1366.25.1792.1095/0.25.1366.743@0.25.1366.743" timestamp="1627689276506" />
+    <state width="1324" height="203" key="GridCell.Tab.1.bottom" timestamp="1627689276500">
       <screen x="0" y="25" width="1366" height="743" />
     </state>
-    <state width="1324" height="203" key="GridCell.Tab.1.bottom/1366.25.1792.1095/0.25.1366.743@0.25.1366.743" timestamp="1627680807103" />
-    <state width="1324" height="203" key="GridCell.Tab.1.center" timestamp="1627680807102">
+    <state width="1324" height="203" key="GridCell.Tab.1.bottom/1366.25.1792.1095/0.25.1366.743@0.25.1366.743" timestamp="1627689276500" />
+    <state width="1324" height="203" key="GridCell.Tab.1.center" timestamp="1627689276499">
       <screen x="0" y="25" width="1366" height="743" />
     </state>
-    <state width="1324" height="203" key="GridCell.Tab.1.center/1366.25.1792.1095/0.25.1366.743@0.25.1366.743" timestamp="1627680807102" />
-    <state width="1324" height="203" key="GridCell.Tab.1.left" timestamp="1627680807102">
+    <state width="1324" height="203" key="GridCell.Tab.1.center/1366.25.1792.1095/0.25.1366.743@0.25.1366.743" timestamp="1627689276499" />
+    <state width="1324" height="203" key="GridCell.Tab.1.left" timestamp="1627689276499">
       <screen x="0" y="25" width="1366" height="743" />
     </state>
-    <state width="1324" height="203" key="GridCell.Tab.1.left/1366.25.1792.1095/0.25.1366.743@0.25.1366.743" timestamp="1627680807102" />
-    <state width="1324" height="203" key="GridCell.Tab.1.right" timestamp="1627680807103">
+    <state width="1324" height="203" key="GridCell.Tab.1.left/1366.25.1792.1095/0.25.1366.743@0.25.1366.743" timestamp="1627689276499" />
+    <state width="1324" height="203" key="GridCell.Tab.1.right" timestamp="1627689276500">
       <screen x="0" y="25" width="1366" height="743" />
     </state>
-    <state width="1324" height="203" key="GridCell.Tab.1.right/1366.25.1792.1095/0.25.1366.743@0.25.1366.743" timestamp="1627680807103" />
+    <state width="1324" height="203" key="GridCell.Tab.1.right/1366.25.1792.1095/0.25.1366.743@0.25.1366.743" timestamp="1627689276500" />
     <state x="478" y="178" key="chooseDestDirectoryDialog" timestamp="1627666092390">
       <screen x="0" y="25" width="1366" height="743" />
     </state>
