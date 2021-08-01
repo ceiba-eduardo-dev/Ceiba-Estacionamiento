@@ -6,7 +6,7 @@
     </shared>
   </component>
   <component name="AndroidLogFilters">
-    <option name="TOOL_WINDOW_LOG_LEVEL" value="error" />
+    <option name="TOOL_WINDOW_LOG_LEVEL" value="verbose" />
     <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
   </component>
   <component name="AutoImportSettings">
@@ -32,7 +32,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="024b0d93-579a-4cf4-b07b-e1898a70e557" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/sonar-project.properties" beforeDir="false" afterPath="$PROJECT_DIR$/sonar-project.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.7.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.7.1/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.7.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.7.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.7.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.7.1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.7.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.7.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/jacoco.exec" beforeDir="false" afterPath="$PROJECT_DIR$/app/jacoco.exec" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-reports/connected/com.android.build.gradle.internal.testing.ConnectedDevice.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-reports/connected/com.android.build.gradle.internal.testing.ConnectedDevice.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-reports/connected/com.android.build.gradle.internal.testing.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-reports/connected/com.android.build.gradle.internal.testing.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-reports/connected/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-reports/connected/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-results/connected/TEST-moto g(8) play - 9-app-.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-results/connected/TEST-moto g(8) play - 9-app-.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -142,7 +154,7 @@
       <recent name="com.ceiba.estacionamiento.vehicles.controller.views.vehicle_entry" />
     </key>
   </component>
-  <component name="RunManager" selected="Android App.app">
+  <component name="RunManager" selected="Android JUnit.estacionamiento in Estacionamiento.app">
     <configuration name="All in Estacionamiento" type="AndroidJUnit" factoryName="Android JUnit" nameIsGenerated="true">
       <module name="Estacionamiento" />
       <option name="PACKAGE_NAME" value="" />
@@ -186,23 +198,6 @@
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RulesParkingUCTest.testValidateAccessForDay" type="AndroidJUnit" factoryName="Android JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Estacionamiento.app" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.ceiba.estacionamiento.vehicles.model.vo.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.ceiba.estacionamiento.vehicles.model.vo" />
-      <option name="MAIN_CLASS_NAME" value="com.ceiba.estacionamiento.vehicles.model.vo.RulesParkingUCTest" />
-      <option name="METHOD_NAME" value="testValidateAccessForDay" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <method v="2">
-        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
     <configuration default="true" type="AndroidJUnit" factoryName="Android JUnit">
       <option name="TEST_OBJECT" value="class" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
@@ -215,6 +210,15 @@
       <option name="TEST_OBJECT" value="directory" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <dir value="$PROJECT_DIR$/app/src/test/java/com/ceiba/estacionamiento" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="vo in Estacionamiento.app" type="AndroidJUnit" factoryName="Android JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Estacionamiento.app" />
+      <option name="TEST_OBJECT" value="directory" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <dir value="$PROJECT_DIR$/app/src/test/java/com/ceiba/estacionamiento/vehicles/model/vo" />
       <method v="2">
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
       </method>
@@ -277,12 +281,64 @@
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Tests in 'com.ceiba.estacionamiento'" type="AndroidTestRunConfigurationType" factoryName="Android Instrumented Tests" temporary="true" nameIsGenerated="true">
+      <module name="Estacionamiento.app" />
+      <option name="TESTING_TYPE" value="1" />
+      <option name="METHOD_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="PACKAGE_NAME" value="com.ceiba.estacionamiento" />
+      <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
+      <option name="EXTRA_OPTIONS" value="" />
+      <option name="INCLUDE_GRADLE_EXTRA_OPTIONS" value="true" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="TARGET_SELECTION_MODE" value="DEVICE_AND_SNAPSHOT_COMBO_BOX" />
+      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="-1" />
+      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
+      <option name="DEBUGGER_TYPE" value="Auto" />
+      <Auto>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Auto>
+      <Hybrid>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Hybrid>
+      <Java />
+      <Native>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Native>
+      <Profilers>
+        <option name="ADVANCED_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_CONFIGURATION_NAME" value="Sample Java Methods" />
+        <option name="STARTUP_NATIVE_MEMORY_PROFILING_ENABLED" value="false" />
+        <option name="NATIVE_MEMORY_SAMPLE_RATE_BYTES" value="2048" />
+      </Profilers>
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Android JUnit.estacionamiento in Estacionamiento.app" />
+        <item itemvalue="Android Instrumented Tests.Tests in 'com.ceiba.estacionamiento'" />
+        <item itemvalue="Android JUnit.vo in Estacionamiento.app" />
         <item itemvalue="Android JUnit.PricesParkingUCTest.testAggregatePriceForCc" />
         <item itemvalue="Android JUnit.PricesParkingUCTest.testCalculatePrice" />
-        <item itemvalue="Android JUnit.RulesParkingUCTest.testValidateAccessForDay" />
       </list>
     </recent_temporary>
   </component>
@@ -358,38 +414,38 @@
       <screen x="0" y="25" width="1366" height="743" />
     </state>
     <state width="486" height="438" key="DebuggerActiveHint/1366.25.1792.1095/0.25.1366.743@0.25.1366.743" timestamp="1627671302950" />
-    <state width="1324" height="195" key="GridCell.Tab.0.bottom" timestamp="1627834402411">
+    <state width="1324" height="444" key="GridCell.Tab.0.bottom" timestamp="1627843807835">
       <screen x="0" y="25" width="1366" height="743" />
     </state>
-    <state width="1324" height="195" key="GridCell.Tab.0.bottom/1366.25.1792.1095/0.25.1366.743@0.25.1366.743" timestamp="1627834402411" />
-    <state width="1324" height="195" key="GridCell.Tab.0.center" timestamp="1627834402410">
+    <state width="1324" height="444" key="GridCell.Tab.0.bottom/1366.25.1792.1095/0.25.1366.743@0.25.1366.743" timestamp="1627843807835" />
+    <state width="1324" height="444" key="GridCell.Tab.0.center" timestamp="1627843807835">
       <screen x="0" y="25" width="1366" height="743" />
     </state>
-    <state width="1324" height="195" key="GridCell.Tab.0.center/1366.25.1792.1095/0.25.1366.743@0.25.1366.743" timestamp="1627834402410" />
-    <state width="1324" height="195" key="GridCell.Tab.0.left" timestamp="1627834402409">
+    <state width="1324" height="444" key="GridCell.Tab.0.center/1366.25.1792.1095/0.25.1366.743@0.25.1366.743" timestamp="1627843807835" />
+    <state width="1324" height="444" key="GridCell.Tab.0.left" timestamp="1627843807834">
       <screen x="0" y="25" width="1366" height="743" />
     </state>
-    <state width="1324" height="195" key="GridCell.Tab.0.left/1366.25.1792.1095/0.25.1366.743@0.25.1366.743" timestamp="1627834402409" />
-    <state width="1324" height="195" key="GridCell.Tab.0.right" timestamp="1627834402410">
+    <state width="1324" height="444" key="GridCell.Tab.0.left/1366.25.1792.1095/0.25.1366.743@0.25.1366.743" timestamp="1627843807834" />
+    <state width="1324" height="444" key="GridCell.Tab.0.right" timestamp="1627843807835">
       <screen x="0" y="25" width="1366" height="743" />
     </state>
-    <state width="1324" height="195" key="GridCell.Tab.0.right/1366.25.1792.1095/0.25.1366.743@0.25.1366.743" timestamp="1627834402410" />
-    <state width="1324" height="203" key="GridCell.Tab.1.bottom" timestamp="1627689276500">
+    <state width="1324" height="444" key="GridCell.Tab.0.right/1366.25.1792.1095/0.25.1366.743@0.25.1366.743" timestamp="1627843807835" />
+    <state width="1324" height="203" key="GridCell.Tab.1.bottom" timestamp="1627843478579">
       <screen x="0" y="25" width="1366" height="743" />
     </state>
-    <state width="1324" height="203" key="GridCell.Tab.1.bottom/1366.25.1792.1095/0.25.1366.743@0.25.1366.743" timestamp="1627689276500" />
-    <state width="1324" height="203" key="GridCell.Tab.1.center" timestamp="1627689276499">
+    <state width="1324" height="203" key="GridCell.Tab.1.bottom/1366.25.1792.1095/0.25.1366.743@0.25.1366.743" timestamp="1627843478579" />
+    <state width="1324" height="203" key="GridCell.Tab.1.center" timestamp="1627843478578">
       <screen x="0" y="25" width="1366" height="743" />
     </state>
-    <state width="1324" height="203" key="GridCell.Tab.1.center/1366.25.1792.1095/0.25.1366.743@0.25.1366.743" timestamp="1627689276499" />
-    <state width="1324" height="203" key="GridCell.Tab.1.left" timestamp="1627689276499">
+    <state width="1324" height="203" key="GridCell.Tab.1.center/1366.25.1792.1095/0.25.1366.743@0.25.1366.743" timestamp="1627843478578" />
+    <state width="1324" height="203" key="GridCell.Tab.1.left" timestamp="1627843478578">
       <screen x="0" y="25" width="1366" height="743" />
     </state>
-    <state width="1324" height="203" key="GridCell.Tab.1.left/1366.25.1792.1095/0.25.1366.743@0.25.1366.743" timestamp="1627689276499" />
-    <state width="1324" height="203" key="GridCell.Tab.1.right" timestamp="1627689276500">
+    <state width="1324" height="203" key="GridCell.Tab.1.left/1366.25.1792.1095/0.25.1366.743@0.25.1366.743" timestamp="1627843478578" />
+    <state width="1324" height="203" key="GridCell.Tab.1.right" timestamp="1627843478578">
       <screen x="0" y="25" width="1366" height="743" />
     </state>
-    <state width="1324" height="203" key="GridCell.Tab.1.right/1366.25.1792.1095/0.25.1366.743@0.25.1366.743" timestamp="1627689276500" />
+    <state width="1324" height="203" key="GridCell.Tab.1.right/1366.25.1792.1095/0.25.1366.743@0.25.1366.743" timestamp="1627843478578" />
     <state x="192" y="32" key="SettingsEditor" timestamp="1627833292851">
       <screen x="0" y="25" width="1366" height="743" />
     </state>
@@ -418,5 +474,8 @@
       <screen x="0" y="25" width="1366" height="743" />
     </state>
     <state x="348" y="92" width="670" height="676" key="search.everywhere.popup/1366.25.1792.1095/0.25.1366.743@0.25.1366.743" timestamp="1627832500673" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Estacionamiento$estacionamiento_in_Estacionamiento_app.ic" NAME="estacionamiento in Estacionamiento.app Coverage Results" MODIFIED="1627843807768" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>
