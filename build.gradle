@@ -39,6 +39,7 @@ buildscript {
         test = '1.3.0'
     }
     ext.kotlin_version = "1.5.21"
+    //ext.kotlin_version = "1.5.21"
     repositories {
         google()
         mavenCentral()
@@ -48,7 +49,6 @@ buildscript {
         classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version"
         classpath "androidx.navigation:navigation-safe-args-gradle-plugin:$navigationVersion"
         classpath "com.google.dagger:hilt-android-gradle-plugin:$hiltVersion"
-        classpath 'org.jacoco:org.jacoco.core:0.8.5'
 
     }
 }
