@@ -18,7 +18,9 @@ class CarRepositoryRoom : CarRepository {
     override fun deleteCar(id: Int) {
     }
 
-    override fun validateAccessCarForDay(car: Car, day: Any): Boolean {
+    override fun validateAccessCarForDay(licensePlate: String, string: String): Boolean {
         return true
     }
+
+
 }
