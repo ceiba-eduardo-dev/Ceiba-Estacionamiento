@@ -32,41 +32,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="024b0d93-579a-4cf4-b07b-e1898a70e557" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_annotation_annotation_1_0_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_common_2_0_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__net_bytebuddy_byte_buddy_1_10_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__net_bytebuddy_byte_buddy_agent_1_10_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_mockito_mockito_core_3_3_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_objenesis_objenesis_2_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/domain/src/main/java/com/ceiba/domain/exception/ParkingCarServiceException.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/domain/src/test/java/com/ceiba/domain/model/service/ParkingCarServiceTest.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/domain/src/test/java/com/ceiba/domain/model/service/ParkingMotorcycleServiceTest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/domain/src/test/java/com/ceiba/domain/model/entity/MotorcycleTest.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.7.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.7.1/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.7.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.7.1/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.7.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.7.1/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.7.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.7.1/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.7.1/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.7.1/fileHashes/resourceHashesCache.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.7.1/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.7.1/javaCompile/classAnalysis.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.7.1/javaCompile/jarAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.7.1/javaCompile/jarAnalysis.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.7.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.7.1/javaCompile/javaCompile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.7.1/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.7.1/javaCompile/taskHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/domain/Estacionamiento.domain.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/domain/Estacionamiento.domain.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/infrastructure/Estacionamiento.infrastructure.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/infrastructure/Estacionamiento.infrastructure.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/presentation/Estacionamiento.presentation.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/presentation/Estacionamiento.presentation.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/domain/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/domain/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/domain/src/main/java/com/ceiba/domain/exception/CalendarParkingException.kt" beforeDir="false" afterPath="$PROJECT_DIR$/domain/src/main/java/com/ceiba/domain/exception/CalendarParkingException.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/domain/src/main/java/com/ceiba/domain/exception/ParkingServiceException.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/domain/src/main/java/com/ceiba/domain/model/entity/Motorcycle.kt" beforeDir="false" afterPath="$PROJECT_DIR$/domain/src/main/java/com/ceiba/domain/model/entity/Motorcycle.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/domain/src/main/java/com/ceiba/domain/model/repository/RepositoryCar.kt" beforeDir="false" afterPath="$PROJECT_DIR$/domain/src/main/java/com/ceiba/domain/model/repository/RepositoryCar.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/domain/src/main/java/com/ceiba/domain/model/repository/RepositoryMotorcycle.kt" beforeDir="false" afterPath="$PROJECT_DIR$/domain/src/main/java/com/ceiba/domain/model/repository/RepositoryMotorcycle.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/domain/src/main/java/com/ceiba/domain/model/service/ParkingCarService.kt" beforeDir="false" afterPath="$PROJECT_DIR$/domain/src/main/java/com/ceiba/domain/model/service/ParkingCarService.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/domain/src/main/java/com/ceiba/domain/model/service/ParkingMotorcycleService.kt" beforeDir="false" afterPath="$PROJECT_DIR$/domain/src/main/java/com/ceiba/domain/model/service/ParkingMotorcycleService.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/domain/src/main/java/com/ceiba/domain/model/valueobject/CalendarParking.kt" beforeDir="false" afterPath="$PROJECT_DIR$/domain/src/main/java/com/ceiba/domain/model/valueobject/CalendarParking.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/domain/src/test/java/com/ceiba/domain/model/valueobject/CalendarParkingTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/domain/src/test/java/com/ceiba/domain/model/valueobject/CalendarParkingTest.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/src/test/java/com/ceiba/domain/model/service/ParkingCarServiceTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/domain/src/test/java/com/ceiba/domain/model/service/ParkingCarServiceTest.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/src/test/java/com/ceiba/domain/model/service/ParkingMotorcycleServiceTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/domain/src/test/java/com/ceiba/domain/model/service/ParkingMotorcycleServiceTest.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -128,7 +102,7 @@
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit3" value="junit.framework.TestCase" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="junit.framework.TestCase" />
-    <property name="last_directory_selection" value="$PROJECT_DIR$/domain/src/test/java/com/ceiba/domain/model/service" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/domain/src/test/java/com/ceiba/domain/model" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="memory.settings.postsync.last.time.stamp" value="1627831396618" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -149,8 +123,8 @@
       <recent name="junit.framework.TestCase" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
-      <recent name="com.ceiba.domain.model.service" />
       <recent name="com.ceiba.domain.model.entity" />
+      <recent name="com.ceiba.domain.model.service" />
       <recent name="com.ceiba.domain.model.valueobject" />
       <recent name="com.ceiba.estacionamiento.vehicles.model.vo" />
       <recent name="com.ceiba.estacionamiento.controller" />
@@ -192,17 +166,28 @@
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CalendarParkingTest" type="AndroidJUnit" factoryName="Android JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="All in Estacionamiento.domain (1)" type="AndroidJUnit" factoryName="Android JUnit" temporary="true" nameIsGenerated="true">
       <module name="Estacionamiento.domain" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.ceiba.domain.model.valueobject.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.ceiba.domain.model.valueobject" />
-      <option name="MAIN_CLASS_NAME" value="com.ceiba.domain.model.valueobject.CalendarParkingTest" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="All in Estacionamiento.domain (2)" type="AndroidJUnit" factoryName="Android JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Estacionamiento.domain" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="All in Estacionamiento.domain" type="AndroidJUnit" factoryName="Android JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Estacionamiento.domain" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <method v="2">
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
@@ -225,34 +210,17 @@
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ParkingCarServiceTest.testSaveCar_dayMonday_success" type="AndroidJUnit" factoryName="Android JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MotorcycleTest.testGetCylinderCapacity_NotNull" type="AndroidJUnit" factoryName="Android JUnit" temporary="true" nameIsGenerated="true">
       <module name="Estacionamiento.domain" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.ceiba.domain.model.service.*" />
+          <option name="PATTERN" value="com.ceiba.domain.model.entity.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.ceiba.domain.model.service" />
-      <option name="MAIN_CLASS_NAME" value="com.ceiba.domain.model.service.ParkingCarServiceTest" />
-      <option name="METHOD_NAME" value="testSaveCar_dayMonday_success" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <method v="2">
-        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ParkingMotorcycleServiceTest.getPriceByCylinderCapacity_maxCylinderCapacityOvercome_correct" type="AndroidJUnit" factoryName="Android JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Estacionamiento.domain" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.ceiba.domain.model.service.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.ceiba.domain.model.service" />
-      <option name="MAIN_CLASS_NAME" value="com.ceiba.domain.model.service.ParkingMotorcycleServiceTest" />
-      <option name="METHOD_NAME" value="getPriceByCylinderCapacity_maxCylinderCapacityOvercome_correct" />
+      <option name="PACKAGE_NAME" value="com.ceiba.domain.model.entity" />
+      <option name="MAIN_CLASS_NAME" value="com.ceiba.domain.model.entity.MotorcycleTest" />
+      <option name="METHOD_NAME" value="testGetCylinderCapacity_NotNull" />
       <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <method v="2">
@@ -270,23 +238,6 @@
       <option name="PACKAGE_NAME" value="com.ceiba.domain.model.service" />
       <option name="MAIN_CLASS_NAME" value="com.ceiba.domain.model.service.ParkingMotorcycleServiceTest" />
       <option name="METHOD_NAME" value="testGetPriceByCylinderCapacity_cylinderCapacityNotReached_correct" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <method v="2">
-        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ParkingMotorcycleServiceTest.testGetPriceByCylinderCapacity_maxCylinderCapacityOvercome_correct" type="AndroidJUnit" factoryName="Android JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Estacionamiento.domain" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.ceiba.domain.model.service.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.ceiba.domain.model.service" />
-      <option name="MAIN_CLASS_NAME" value="com.ceiba.domain.model.service.ParkingMotorcycleServiceTest" />
-      <option name="METHOD_NAME" value="testGetPriceByCylinderCapacity_maxCylinderCapacityOvercome_correct" />
       <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <method v="2">
@@ -477,10 +428,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Android JUnit.ParkingMotorcycleServiceTest.testGetPriceByCylinderCapacity_cylinderCapacityNotReached_correct" />
-        <item itemvalue="Android JUnit.ParkingMotorcycleServiceTest.testGetPriceByCylinderCapacity_maxCylinderCapacityOvercome_correct" />
-        <item itemvalue="Android JUnit.ParkingMotorcycleServiceTest.getPriceByCylinderCapacity_maxCylinderCapacityOvercome_correct" />
-        <item itemvalue="Android JUnit.ParkingCarServiceTest.testSaveCar_dayMonday_success" />
-        <item itemvalue="Android JUnit.CalendarParkingTest" />
+        <item itemvalue="Android JUnit.All in Estacionamiento.domain (2)" />
+        <item itemvalue="Android JUnit.All in Estacionamiento.domain (1)" />
+        <item itemvalue="Android JUnit.MotorcycleTest.testGetCylinderCapacity_NotNull" />
+        <item itemvalue="Android JUnit.All in Estacionamiento.domain" />
       </list>
     </recent_temporary>
   </component>
@@ -562,25 +513,25 @@
       <screen x="0" y="25" width="1366" height="743" />
     </state>
     <state width="486" height="438" key="DebuggerActiveHint/1366.25.1792.1095/0.25.1366.743@0.25.1366.743" timestamp="1627671302950" />
-    <state width="1324" height="195" key="GridCell.Tab.0.bottom" timestamp="1627885019984">
+    <state width="1324" height="195" key="GridCell.Tab.0.bottom" timestamp="1627885900282">
       <screen x="0" y="25" width="1366" height="674" />
     </state>
-    <state width="1324" height="195" key="GridCell.Tab.0.bottom/1366.25.1792.1095/0.25.1366.674@0.25.1366.674" timestamp="1627885019984" />
+    <state width="1324" height="195" key="GridCell.Tab.0.bottom/1366.25.1792.1095/0.25.1366.674@0.25.1366.674" timestamp="1627885900282" />
     <state width="1324" height="222" key="GridCell.Tab.0.bottom/1366.25.1792.1095/0.25.1366.743@0.25.1366.743" timestamp="1627865395680" />
-    <state width="1324" height="195" key="GridCell.Tab.0.center" timestamp="1627885019984">
+    <state width="1324" height="195" key="GridCell.Tab.0.center" timestamp="1627885900282">
       <screen x="0" y="25" width="1366" height="674" />
     </state>
-    <state width="1324" height="195" key="GridCell.Tab.0.center/1366.25.1792.1095/0.25.1366.674@0.25.1366.674" timestamp="1627885019984" />
+    <state width="1324" height="195" key="GridCell.Tab.0.center/1366.25.1792.1095/0.25.1366.674@0.25.1366.674" timestamp="1627885900282" />
     <state width="1324" height="222" key="GridCell.Tab.0.center/1366.25.1792.1095/0.25.1366.743@0.25.1366.743" timestamp="1627865395679" />
-    <state width="1324" height="195" key="GridCell.Tab.0.left" timestamp="1627885019983">
+    <state width="1324" height="195" key="GridCell.Tab.0.left" timestamp="1627885900281">
       <screen x="0" y="25" width="1366" height="674" />
     </state>
-    <state width="1324" height="195" key="GridCell.Tab.0.left/1366.25.1792.1095/0.25.1366.674@0.25.1366.674" timestamp="1627885019983" />
+    <state width="1324" height="195" key="GridCell.Tab.0.left/1366.25.1792.1095/0.25.1366.674@0.25.1366.674" timestamp="1627885900281" />
     <state width="1324" height="222" key="GridCell.Tab.0.left/1366.25.1792.1095/0.25.1366.743@0.25.1366.743" timestamp="1627865395678" />
-    <state width="1324" height="195" key="GridCell.Tab.0.right" timestamp="1627885019984">
+    <state width="1324" height="195" key="GridCell.Tab.0.right" timestamp="1627885900282">
       <screen x="0" y="25" width="1366" height="674" />
     </state>
-    <state width="1324" height="195" key="GridCell.Tab.0.right/1366.25.1792.1095/0.25.1366.674@0.25.1366.674" timestamp="1627885019984" />
+    <state width="1324" height="195" key="GridCell.Tab.0.right/1366.25.1792.1095/0.25.1366.674@0.25.1366.674" timestamp="1627885900282" />
     <state width="1324" height="222" key="GridCell.Tab.0.right/1366.25.1792.1095/0.25.1366.743@0.25.1366.743" timestamp="1627865395679" />
     <state width="1324" height="263" key="GridCell.Tab.1.bottom" timestamp="1627884735032">
       <screen x="0" y="25" width="1366" height="674" />
@@ -606,10 +557,10 @@
       <screen x="0" y="25" width="1366" height="743" />
     </state>
     <state x="192" y="32" key="SettingsEditor/1366.25.1792.1095/0.25.1366.743@0.25.1366.743" timestamp="1627833292851" />
-    <state x="478" y="164" key="chooseDestDirectoryDialog" timestamp="1627884388861">
+    <state x="478" y="164" key="chooseDestDirectoryDialog" timestamp="1627885745966">
       <screen x="0" y="25" width="1366" height="674" />
     </state>
-    <state x="478" y="164" key="chooseDestDirectoryDialog/1366.25.1792.1095/0.25.1366.674@0.25.1366.674" timestamp="1627884388861" />
+    <state x="478" y="164" key="chooseDestDirectoryDialog/1366.25.1792.1095/0.25.1366.674@0.25.1366.674" timestamp="1627885745966" />
     <state x="478" y="178" key="chooseDestDirectoryDialog/1366.25.1792.1095/0.25.1366.743@0.25.1366.743" timestamp="1627666092390" />
     <state x="485" y="314" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1627865002002">
       <screen x="0" y="25" width="1366" height="743" />
@@ -624,10 +575,10 @@
     </state>
     <state x="382" y="139" width="609" height="548" key="find.popup/1366.25.1792.1095/0.25.1366.674@0.25.1366.674" timestamp="1627870159439" />
     <state x="382" y="151" width="609" height="548" key="find.popup/1366.25.1792.1095/0.25.1366.743@0.25.1366.743" timestamp="1627680502238" />
-    <state x="417" y="171" key="org.jetbrains.kotlin.idea.testIntegration.KotlinCreateTestDialog" timestamp="1627884388918">
+    <state x="417" y="171" key="org.jetbrains.kotlin.idea.testIntegration.KotlinCreateTestDialog" timestamp="1627885746027">
       <screen x="0" y="25" width="1366" height="674" />
     </state>
-    <state x="417" y="171" key="org.jetbrains.kotlin.idea.testIntegration.KotlinCreateTestDialog/1366.25.1792.1095/0.25.1366.674@0.25.1366.674" timestamp="1627884388918" />
+    <state x="417" y="171" key="org.jetbrains.kotlin.idea.testIntegration.KotlinCreateTestDialog/1366.25.1792.1095/0.25.1366.674@0.25.1366.674" timestamp="1627885746027" />
     <state x="417" y="186" key="org.jetbrains.kotlin.idea.testIntegration.KotlinCreateTestDialog/1366.25.1792.1095/0.25.1366.743@0.25.1366.743" timestamp="1627666094258" />
     <state x="348" y="177" width="670" height="675" key="run.anything.popup" timestamp="1627832096766">
       <screen x="0" y="25" width="1366" height="743" />
@@ -640,6 +591,8 @@
     <state x="348" y="92" width="670" height="676" key="search.everywhere.popup/1366.25.1792.1095/0.25.1366.743@0.25.1366.743" timestamp="1627832500673" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Estacionamiento$All_in_Estacionamiento_domain.ic" NAME="All in Estacionamiento.domain Coverage Results" MODIFIED="1627885355151" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/Estacionamiento$estacionamiento_in_Estacionamiento_app.ic" NAME="estacionamiento in Estacionamiento.app Coverage Results" MODIFIED="1627843807768" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/Estacionamiento$All_in_Estacionamiento_domain__1_.ic" NAME="All in Estacionamiento.domain (1) Coverage Results" MODIFIED="1627885884544" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>

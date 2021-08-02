@@ -23,9 +23,10 @@ class ParkingMotorcycleServiceTest : TestCase() {
     @Test
     fun testGetPriceByCylinderCapacity_cylinderCapacityNotReached_correct() {
         val motorcycle = Motorcycle("PTP14F", 200);
+        val expected = ParkingMotorcycleService().getPriceByCylinderCapacity(motorcycle)
         assertEquals(
             0,
-            ParkingMotorcycleService().getPriceByCylinderCapacity(motorcycle)
+            expected
         )
     }
 }
