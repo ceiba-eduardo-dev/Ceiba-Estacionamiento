@@ -1,2 +1,4 @@
-./idea
-./grade
+./idea/*
+./grade/*
+*.idea
+*.gradle
