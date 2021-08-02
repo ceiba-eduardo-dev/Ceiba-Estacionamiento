@@ -3,7 +3,9 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/Estacionamiento.iml" filepath="$PROJECT_DIR$/.idea/modules/Estacionamiento.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Estacionamiento.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Estacionamiento.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/domain/Estacionamiento.domain.iml" filepath="$PROJECT_DIR$/.idea/modules/domain/Estacionamiento.domain.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/infrastructure/Estacionamiento.infrastructure.iml" filepath="$PROJECT_DIR$/.idea/modules/infrastructure/Estacionamiento.infrastructure.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Estacionamiento.presentation.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Estacionamiento.presentation.iml" />
     </modules>
   </component>
 </project>
