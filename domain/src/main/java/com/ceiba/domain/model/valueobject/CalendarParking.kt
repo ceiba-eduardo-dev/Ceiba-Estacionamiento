@@ -10,7 +10,8 @@ class CalendarParking(
     private lateinit var calendar: Calendar
 
     companion object {
-        val formatDate = SimpleDateFormat("dd-MM-yyyy hh:mm:ss")
+        private const val stringDateFormat = "dd-MM-yyyy hh:mm:ss"
+        val formatDate = SimpleDateFormat(stringDateFormat)
     }
 
     fun getCalendar(): Calendar {

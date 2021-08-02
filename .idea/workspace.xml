@@ -32,15 +32,52 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="024b0d93-579a-4cf4-b07b-e1898a70e557" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_arch_core_core_common_2_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_arch_core_core_runtime_2_0_1_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_collection_collection_1_0_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_runtime_2_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_room_room_common_2_2_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_room_room_runtime_2_2_5_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_sqlite_sqlite_2_0_1_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_sqlite_sqlite_framework_2_0_1_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/infrastructure/src/main/java/com/ceiba/infrestructure/anticorruption/CarTranslate.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/infrastructure/src/main/java/com/ceiba/infrestructure/anticorruption/MotorcycleTranslate.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/infrastructure/src/main/java/com/ceiba/infrestructure/database/dao/CarDao.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/infrastructure/src/main/java/com/ceiba/infrestructure/database/dao/MotorcycleDao.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/infrastructure/src/main/java/com/ceiba/infrestructure/database/entity/CarEntity.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/infrastructure/src/main/java/com/ceiba/infrestructure/database/entity/MotorcycleEntity.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/infrastructure/src/main/java/com/ceiba/infrestructure/repository/CarRepositoryRoom.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/infrastructure/src/main/java/com/ceiba/infrestructure/repository/MotorcycleRepositoryRoom.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.7.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.7.1/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.7.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.7.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.7.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.7.1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.7.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.7.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.7.1/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.7.1/fileHashes/resourceHashesCache.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.7.1/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.7.1/javaCompile/classAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.7.1/javaCompile/jarAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.7.1/javaCompile/jarAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.7.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.7.1/javaCompile/javaCompile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.7.1/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.7.1/javaCompile/taskHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/checksums/md5-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/md5-checksums.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/checksums/sha1-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/sha1-checksums.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_constraintlayout_constraintlayout_2_0_1_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_constraintlayout_constraintlayout_solver_2_0_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/domain/Estacionamiento.domain.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/domain/Estacionamiento.domain.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/infrastructure/Estacionamiento.infrastructure.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/infrastructure/Estacionamiento.infrastructure.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/domain/src/main/java/com/ceiba/domain/model/entity/Motorcycle.kt" beforeDir="false" afterPath="$PROJECT_DIR$/domain/src/main/java/com/ceiba/domain/model/entity/Motorcycle.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/src/main/java/com/ceiba/domain/model/repository/RepositoryMotorcycle.kt" beforeDir="false" afterPath="$PROJECT_DIR$/domain/src/main/java/com/ceiba/domain/model/repository/RepositoryMotorcycle.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/src/main/java/com/ceiba/domain/model/valueobject/CalendarParking.kt" beforeDir="false" afterPath="$PROJECT_DIR$/domain/src/main/java/com/ceiba/domain/model/valueobject/CalendarParking.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/src/test/java/com/ceiba/domain/model/entity/MotorcycleTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/domain/src/test/java/com/ceiba/domain/model/entity/MotorcycleTest.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/infrastructure/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/infrastructure/build.gradle" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[SerialNumber@ZY2277335K]" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[]" />
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
@@ -74,10 +111,10 @@
         <option value="layoutResourceFile" />
         <option value="Kotlin Data Class" />
         <option value="JUnit3 Test Class" />
-        <option value="Kotlin Interface" />
         <option value="Class" />
-        <option value="Kotlin Class" />
         <option value="JUnit4 Test Class" />
+        <option value="Kotlin Class" />
+        <option value="Kotlin Interface" />
       </list>
     </option>
   </component>
@@ -123,9 +160,11 @@
       <recent name="com.ceiba.estacionamiento.controller" />
     </key>
     <key name="CreateKotlinClassDialog.RecentsKey">
+      <recent name="com.ceiba.infrestructure.database.entity" />
       <recent name="com.ceiba.estacionamiento.shared.model.utils" />
     </key>
     <key name="CopyKotlinDeclarationDialog.RECENTS_KEY">
+      <recent name="com.ceiba.infrestructure.repository" />
       <recent name="com.ceiba.domain.model.service" />
       <recent name="com.ceiba.domain.model.repository" />
       <recent name="com.ceiba.estacionamiento.vehicles.presenter.vehicle_entry" />
@@ -149,18 +188,9 @@
       <recent name="com.ceiba.estacionamiento.vehicles.controller.views.vehicle_entry" />
     </key>
   </component>
-  <component name="RunManager" selected="Android JUnit.ParkingMotorcycleServiceTest.testGetPriceByCylinderCapacity_cylinderCapacityNotReached_correct">
+  <component name="RunManager" selected="Android JUnit.All in Estacionamiento.domain">
     <configuration name="All in Estacionamiento" type="AndroidJUnit" factoryName="Android JUnit" nameIsGenerated="true">
       <module name="Estacionamiento" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="TEST_OBJECT" value="package" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <method v="2">
-        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="All in Estacionamiento.domain (1)" type="AndroidJUnit" factoryName="Android JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Estacionamiento.domain" />
       <option name="PACKAGE_NAME" value="" />
       <option name="TEST_OBJECT" value="package" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
@@ -203,7 +233,7 @@
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MotorcycleTest.testGetCylinderCapacity_NotNull" type="AndroidJUnit" factoryName="Android JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MotorcycleTest.testGetCylinderCapacity_capacity500_correct" type="AndroidJUnit" factoryName="Android JUnit" temporary="true" nameIsGenerated="true">
       <module name="Estacionamiento.domain" />
       <extension name="coverage">
         <pattern>
@@ -213,7 +243,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.ceiba.domain.model.entity" />
       <option name="MAIN_CLASS_NAME" value="com.ceiba.domain.model.entity.MotorcycleTest" />
-      <option name="METHOD_NAME" value="testGetCylinderCapacity_NotNull" />
+      <option name="METHOD_NAME" value="testGetCylinderCapacity_capacity500_correct" />
       <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <method v="2">
@@ -240,6 +270,15 @@
     <configuration default="true" type="AndroidJUnit" factoryName="Android JUnit">
       <option name="TEST_OBJECT" value="class" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="entity in Estacionamiento.domain" type="AndroidJUnit" factoryName="Android JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Estacionamiento.domain" />
+      <option name="TEST_OBJECT" value="directory" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <dir value="$PROJECT_DIR$/domain/src/test/java/com/ceiba/domain/model/entity" />
       <method v="2">
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
       </method>
@@ -420,11 +459,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Android JUnit.All in Estacionamiento.domain" />
+        <item itemvalue="Android JUnit.entity in Estacionamiento.domain" />
+        <item itemvalue="Android JUnit.MotorcycleTest.testGetCylinderCapacity_capacity500_correct" />
         <item itemvalue="Android JUnit.ParkingMotorcycleServiceTest.testGetPriceByCylinderCapacity_cylinderCapacityNotReached_correct" />
         <item itemvalue="Android JUnit.All in Estacionamiento.domain (2)" />
-        <item itemvalue="Android JUnit.All in Estacionamiento.domain (1)" />
-        <item itemvalue="Android JUnit.MotorcycleTest.testGetCylinderCapacity_NotNull" />
-        <item itemvalue="Android JUnit.All in Estacionamiento.domain" />
       </list>
     </recent_temporary>
   </component>
@@ -465,9 +504,10 @@
       <screen x="0" y="25" width="1366" height="743" />
     </state>
     <state x="100" y="125" width="1166" height="543" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/1366.25.1792.1095/0.25.1366.743@0.25.1366.743" timestamp="1627680736726" />
-    <state x="470" y="116" key="#com.intellij.ide.util.MemberChooser" timestamp="1627863478045">
-      <screen x="0" y="25" width="1366" height="743" />
+    <state x="470" y="108" key="#com.intellij.ide.util.MemberChooser" timestamp="1627888320435">
+      <screen x="0" y="25" width="1366" height="674" />
     </state>
+    <state x="470" y="108" key="#com.intellij.ide.util.MemberChooser/1366.25.1792.1095/0.25.1366.674@0.25.1366.674" timestamp="1627888320435" />
     <state x="470" y="116" key="#com.intellij.ide.util.MemberChooser/1366.25.1792.1095/0.25.1366.743@0.25.1366.743" timestamp="1627863478045" />
     <state x="122" y="325" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1627570564927">
       <screen x="0" y="25" width="1366" height="743" />
@@ -506,45 +546,45 @@
       <screen x="0" y="25" width="1366" height="743" />
     </state>
     <state width="486" height="438" key="DebuggerActiveHint/1366.25.1792.1095/0.25.1366.743@0.25.1366.743" timestamp="1627671302950" />
-    <state width="1324" height="195" key="GridCell.Tab.0.bottom" timestamp="1627886006665">
+    <state width="1324" height="195" key="GridCell.Tab.0.bottom" timestamp="1627910814001">
       <screen x="0" y="25" width="1366" height="674" />
     </state>
-    <state width="1324" height="195" key="GridCell.Tab.0.bottom/1366.25.1792.1095/0.25.1366.674@0.25.1366.674" timestamp="1627886006665" />
+    <state width="1324" height="195" key="GridCell.Tab.0.bottom/1366.25.1792.1095/0.25.1366.674@0.25.1366.674" timestamp="1627910814001" />
     <state width="1324" height="222" key="GridCell.Tab.0.bottom/1366.25.1792.1095/0.25.1366.743@0.25.1366.743" timestamp="1627865395680" />
-    <state width="1324" height="195" key="GridCell.Tab.0.center" timestamp="1627886006664">
+    <state width="1324" height="195" key="GridCell.Tab.0.center" timestamp="1627910814000">
       <screen x="0" y="25" width="1366" height="674" />
     </state>
-    <state width="1324" height="195" key="GridCell.Tab.0.center/1366.25.1792.1095/0.25.1366.674@0.25.1366.674" timestamp="1627886006664" />
+    <state width="1324" height="195" key="GridCell.Tab.0.center/1366.25.1792.1095/0.25.1366.674@0.25.1366.674" timestamp="1627910814000" />
     <state width="1324" height="222" key="GridCell.Tab.0.center/1366.25.1792.1095/0.25.1366.743@0.25.1366.743" timestamp="1627865395679" />
-    <state width="1324" height="195" key="GridCell.Tab.0.left" timestamp="1627886006663">
+    <state width="1324" height="195" key="GridCell.Tab.0.left" timestamp="1627910814000">
       <screen x="0" y="25" width="1366" height="674" />
     </state>
-    <state width="1324" height="195" key="GridCell.Tab.0.left/1366.25.1792.1095/0.25.1366.674@0.25.1366.674" timestamp="1627886006663" />
+    <state width="1324" height="195" key="GridCell.Tab.0.left/1366.25.1792.1095/0.25.1366.674@0.25.1366.674" timestamp="1627910814000" />
     <state width="1324" height="222" key="GridCell.Tab.0.left/1366.25.1792.1095/0.25.1366.743@0.25.1366.743" timestamp="1627865395678" />
-    <state width="1324" height="195" key="GridCell.Tab.0.right" timestamp="1627886006664">
+    <state width="1324" height="195" key="GridCell.Tab.0.right" timestamp="1627910814001">
       <screen x="0" y="25" width="1366" height="674" />
     </state>
-    <state width="1324" height="195" key="GridCell.Tab.0.right/1366.25.1792.1095/0.25.1366.674@0.25.1366.674" timestamp="1627886006664" />
+    <state width="1324" height="195" key="GridCell.Tab.0.right/1366.25.1792.1095/0.25.1366.674@0.25.1366.674" timestamp="1627910814001" />
     <state width="1324" height="222" key="GridCell.Tab.0.right/1366.25.1792.1095/0.25.1366.743@0.25.1366.743" timestamp="1627865395679" />
-    <state width="1324" height="263" key="GridCell.Tab.1.bottom" timestamp="1627884735032">
+    <state width="1324" height="263" key="GridCell.Tab.1.bottom" timestamp="1627887627470">
       <screen x="0" y="25" width="1366" height="674" />
     </state>
-    <state width="1324" height="263" key="GridCell.Tab.1.bottom/1366.25.1792.1095/0.25.1366.674@0.25.1366.674" timestamp="1627884735032" />
+    <state width="1324" height="263" key="GridCell.Tab.1.bottom/1366.25.1792.1095/0.25.1366.674@0.25.1366.674" timestamp="1627887627470" />
     <state width="1324" height="203" key="GridCell.Tab.1.bottom/1366.25.1792.1095/0.25.1366.743@0.25.1366.743" timestamp="1627864772501" />
-    <state width="1324" height="263" key="GridCell.Tab.1.center" timestamp="1627884735032">
+    <state width="1324" height="263" key="GridCell.Tab.1.center" timestamp="1627887627470">
       <screen x="0" y="25" width="1366" height="674" />
     </state>
-    <state width="1324" height="263" key="GridCell.Tab.1.center/1366.25.1792.1095/0.25.1366.674@0.25.1366.674" timestamp="1627884735032" />
+    <state width="1324" height="263" key="GridCell.Tab.1.center/1366.25.1792.1095/0.25.1366.674@0.25.1366.674" timestamp="1627887627470" />
     <state width="1324" height="203" key="GridCell.Tab.1.center/1366.25.1792.1095/0.25.1366.743@0.25.1366.743" timestamp="1627864772501" />
-    <state width="1324" height="263" key="GridCell.Tab.1.left" timestamp="1627884735031">
+    <state width="1324" height="263" key="GridCell.Tab.1.left" timestamp="1627887627469">
       <screen x="0" y="25" width="1366" height="674" />
     </state>
-    <state width="1324" height="263" key="GridCell.Tab.1.left/1366.25.1792.1095/0.25.1366.674@0.25.1366.674" timestamp="1627884735031" />
+    <state width="1324" height="263" key="GridCell.Tab.1.left/1366.25.1792.1095/0.25.1366.674@0.25.1366.674" timestamp="1627887627469" />
     <state width="1324" height="203" key="GridCell.Tab.1.left/1366.25.1792.1095/0.25.1366.743@0.25.1366.743" timestamp="1627864772500" />
-    <state width="1324" height="263" key="GridCell.Tab.1.right" timestamp="1627884735032">
+    <state width="1324" height="263" key="GridCell.Tab.1.right" timestamp="1627887627470">
       <screen x="0" y="25" width="1366" height="674" />
     </state>
-    <state width="1324" height="263" key="GridCell.Tab.1.right/1366.25.1792.1095/0.25.1366.674@0.25.1366.674" timestamp="1627884735032" />
+    <state width="1324" height="263" key="GridCell.Tab.1.right/1366.25.1792.1095/0.25.1366.674@0.25.1366.674" timestamp="1627887627470" />
     <state width="1324" height="203" key="GridCell.Tab.1.right/1366.25.1792.1095/0.25.1366.743@0.25.1366.743" timestamp="1627864772501" />
     <state x="192" y="32" key="SettingsEditor" timestamp="1627833292851">
       <screen x="0" y="25" width="1366" height="743" />
@@ -563,10 +603,10 @@
       <screen x="0" y="25" width="1366" height="743" />
     </state>
     <state x="244" y="129" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/1366.25.1792.1095/0.25.1366.743@0.25.1366.743" timestamp="1627589142293" />
-    <state x="382" y="139" width="609" height="548" key="find.popup" timestamp="1627870159439">
+    <state x="382" y="139" width="609" height="548" key="find.popup" timestamp="1627886264086">
       <screen x="0" y="25" width="1366" height="674" />
     </state>
-    <state x="382" y="139" width="609" height="548" key="find.popup/1366.25.1792.1095/0.25.1366.674@0.25.1366.674" timestamp="1627870159439" />
+    <state x="382" y="139" width="609" height="548" key="find.popup/1366.25.1792.1095/0.25.1366.674@0.25.1366.674" timestamp="1627886264086" />
     <state x="382" y="151" width="609" height="548" key="find.popup/1366.25.1792.1095/0.25.1366.743@0.25.1366.743" timestamp="1627680502238" />
     <state x="417" y="171" key="org.jetbrains.kotlin.idea.testIntegration.KotlinCreateTestDialog" timestamp="1627885746027">
       <screen x="0" y="25" width="1366" height="674" />
