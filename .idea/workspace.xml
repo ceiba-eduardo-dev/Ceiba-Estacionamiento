@@ -31,7 +31,25 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="024b0d93-579a-4cf4-b07b-e1898a70e557" name="Default Changelist" comment="" />
+    <list default="true" id="024b0d93-579a-4cf4-b07b-e1898a70e557" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gradle/6.7.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.7.1/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.7.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.7.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.7.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.7.1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.7.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.7.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.7.1/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.7.1/fileHashes/resourceHashesCache.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.7.1/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.7.1/javaCompile/classAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.7.1/javaCompile/jarAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.7.1/javaCompile/jarAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.7.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.7.1/javaCompile/javaCompile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/src/main/java/com/ceiba/domain/model/Vehicle.kt" beforeDir="false" afterPath="$PROJECT_DIR$/domain/src/main/java/com/ceiba/domain/model/Vehicle.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/src/main/java/com/ceiba/domain/repository/CarRepository.kt" beforeDir="false" afterPath="$PROJECT_DIR$/domain/src/main/java/com/ceiba/domain/repository/CarRepository.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/src/main/java/com/ceiba/domain/service/ParkingCarService.kt" beforeDir="false" afterPath="$PROJECT_DIR$/domain/src/main/java/com/ceiba/domain/service/ParkingCarService.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/src/test/java/com/ceiba/domain/model/entity/MotorcycleTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/domain/src/test/java/com/ceiba/domain/model/MotorcycleTest.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/src/test/java/com/ceiba/domain/model/valueobject/CalendarParkingTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/domain/src/test/java/com/ceiba/domain/model/CalendarParkingTest.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/src/test/java/com/ceiba/domain/service/ParkingCarServiceTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/domain/src/test/java/com/ceiba/domain/service/ParkingCarServiceTest.kt" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -104,8 +122,8 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveKotlinTopLevelDeclarationsDialog.RECENTS_KEY">
-      <recent name="com.ceiba.domain.model.parking" />
       <recent name="com.ceiba.domain.model" />
+      <recent name="com.ceiba.domain.model.parking" />
       <recent name="com.ceiba.estacionamiento.activitys" />
       <recent name="com.ceiba.estacionamiento" />
       <recent name="com.ceiba.estacionamiento.vehicles.controller.views" />
@@ -160,46 +178,17 @@
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="All in Estacionamiento.domain (1)" type="AndroidJUnit" factoryName="Android JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CalendarParkingTest" type="AndroidJUnit" factoryName="Android JUnit" temporary="true" nameIsGenerated="true">
       <module name="Estacionamiento.domain" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="TEST_OBJECT" value="package" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <method v="2">
-        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="All in Estacionamiento.domain (3)" type="AndroidJUnit" factoryName="Android JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Estacionamiento.domain" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="TEST_OBJECT" value="package" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <method v="2">
-        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="All in Estacionamiento.domain (4)" type="AndroidJUnit" factoryName="Android JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Estacionamiento.domain" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="TEST_OBJECT" value="package" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <method v="2">
-        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="All in Estacionamiento.domain (5)" type="AndroidJUnit" factoryName="Android JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Estacionamiento.domain" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="TEST_OBJECT" value="package" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <method v="2">
-        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="All in Estacionamiento.domain" type="AndroidJUnit" factoryName="Android JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Estacionamiento.domain" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="TEST_OBJECT" value="package" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ceiba.domain.model.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.ceiba.domain.model" />
+      <option name="MAIN_CLASS_NAME" value="com.ceiba.domain.model.CalendarParkingTest" />
+      <option name="TEST_OBJECT" value="class" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <method v="2">
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
@@ -216,6 +205,73 @@
       <option name="PACKAGE_NAME" value="com.ceiba.domain.model.valueobject" />
       <option name="MAIN_CLASS_NAME" value="com.ceiba.domain.model.valueobject.CalendarParkingTest" />
       <option name="METHOD_NAME" value="getCalendar_fromString_success" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ParkingCarServiceTest" type="AndroidJUnit" factoryName="Android JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Estacionamiento.domain" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ceiba.domain.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.ceiba.domain.service" />
+      <option name="MAIN_CLASS_NAME" value="com.ceiba.domain.service.ParkingCarServiceTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ParkingCarServiceTest.testSaveCar_dayMonday_success" type="AndroidJUnit" factoryName="Android JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Estacionamiento.domain" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ceiba.domain.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.ceiba.domain.service" />
+      <option name="MAIN_CLASS_NAME" value="com.ceiba.domain.service.ParkingCarServiceTest" />
+      <option name="METHOD_NAME" value="testSaveCar_dayMonday_success" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ParkingCarServiceTest.testValidateAccessCarForDay_dayMonday_error" type="AndroidJUnit" factoryName="Android JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Estacionamiento.domain" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ceiba.domain.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.ceiba.domain.service" />
+      <option name="MAIN_CLASS_NAME" value="com.ceiba.domain.service.ParkingCarServiceTest" />
+      <option name="METHOD_NAME" value="testValidateAccessCarForDay_dayMonday_error" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ParkingCarServiceTest.testValidateAccessCarForDay_dayMonday_success" type="AndroidJUnit" factoryName="Android JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Estacionamiento.domain" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ceiba.domain.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.ceiba.domain.service" />
+      <option name="MAIN_CLASS_NAME" value="com.ceiba.domain.service.ParkingCarServiceTest" />
+      <option name="METHOD_NAME" value="testValidateAccessCarForDay_dayMonday_success" />
       <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <method v="2">
@@ -405,11 +461,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Android JUnit.All in Estacionamiento.domain (1)" />
-        <item itemvalue="Android JUnit.All in Estacionamiento.domain" />
-        <item itemvalue="Android JUnit.All in Estacionamiento.domain (5)" />
-        <item itemvalue="Android JUnit.All in Estacionamiento.domain (4)" />
-        <item itemvalue="Android JUnit.All in Estacionamiento.domain (3)" />
+        <item itemvalue="Android JUnit.ParkingCarServiceTest.testValidateAccessCarForDay_dayMonday_error" />
+        <item itemvalue="Android JUnit.ParkingCarServiceTest.testValidateAccessCarForDay_dayMonday_success" />
+        <item itemvalue="Android JUnit.ParkingCarServiceTest" />
+        <item itemvalue="Android JUnit.CalendarParkingTest" />
+        <item itemvalue="Android JUnit.ParkingCarServiceTest.testSaveCar_dayMonday_success" />
       </list>
     </recent_temporary>
   </component>
@@ -474,10 +530,10 @@
       <screen x="0" y="25" width="1366" height="743" />
     </state>
     <state x="421" y="147" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/1366.25.1792.1095/0.25.1366.743@0.25.1366.743" timestamp="1627508246843" />
-    <state x="444" y="176" width="566" height="382" key="#org.jetbrains.kotlin.idea.refactoring.move.moveDeclarations.ui.MoveKotlinTopLevelDeclarationsDialog" timestamp="1627914415281">
+    <state x="444" y="176" width="566" height="382" key="#org.jetbrains.kotlin.idea.refactoring.move.moveDeclarations.ui.MoveKotlinTopLevelDeclarationsDialog" timestamp="1627924864496">
       <screen x="0" y="25" width="1366" height="674" />
     </state>
-    <state x="444" y="176" width="566" height="382" key="#org.jetbrains.kotlin.idea.refactoring.move.moveDeclarations.ui.MoveKotlinTopLevelDeclarationsDialog/1366.25.1792.1095/0.25.1366.674@0.25.1366.674" timestamp="1627914415281" />
+    <state x="444" y="176" width="566" height="382" key="#org.jetbrains.kotlin.idea.refactoring.move.moveDeclarations.ui.MoveKotlinTopLevelDeclarationsDialog/1366.25.1792.1095/0.25.1366.674@0.25.1366.674" timestamp="1627924864496" />
     <state x="444" y="192" width="566" height="409" key="#org.jetbrains.kotlin.idea.refactoring.move.moveDeclarations.ui.MoveKotlinTopLevelDeclarationsDialog/1366.25.1792.1095/0.25.1366.743@0.25.1366.743" timestamp="1627863456636" />
     <state x="383" y="235" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1627569948778">
       <screen x="0" y="25" width="1366" height="743" />
@@ -495,25 +551,25 @@
       <screen x="0" y="25" width="1366" height="743" />
     </state>
     <state width="486" height="438" key="DebuggerActiveHint/1366.25.1792.1095/0.25.1366.743@0.25.1366.743" timestamp="1627671302950" />
-    <state width="1324" height="2" key="GridCell.Tab.0.bottom" timestamp="1627923707579">
+    <state width="1324" height="263" key="GridCell.Tab.0.bottom" timestamp="1627927555878">
       <screen x="0" y="25" width="1366" height="674" />
     </state>
-    <state width="1324" height="2" key="GridCell.Tab.0.bottom/1366.25.1792.1095/0.25.1366.674@0.25.1366.674" timestamp="1627923707579" />
+    <state width="1324" height="263" key="GridCell.Tab.0.bottom/1366.25.1792.1095/0.25.1366.674@0.25.1366.674" timestamp="1627927555878" />
     <state width="1324" height="222" key="GridCell.Tab.0.bottom/1366.25.1792.1095/0.25.1366.743@0.25.1366.743" timestamp="1627865395680" />
-    <state width="1324" height="2" key="GridCell.Tab.0.center" timestamp="1627923707578">
+    <state width="1324" height="263" key="GridCell.Tab.0.center" timestamp="1627927555878">
       <screen x="0" y="25" width="1366" height="674" />
     </state>
-    <state width="1324" height="2" key="GridCell.Tab.0.center/1366.25.1792.1095/0.25.1366.674@0.25.1366.674" timestamp="1627923707578" />
+    <state width="1324" height="263" key="GridCell.Tab.0.center/1366.25.1792.1095/0.25.1366.674@0.25.1366.674" timestamp="1627927555878" />
     <state width="1324" height="222" key="GridCell.Tab.0.center/1366.25.1792.1095/0.25.1366.743@0.25.1366.743" timestamp="1627865395679" />
-    <state width="1324" height="2" key="GridCell.Tab.0.left" timestamp="1627923707578">
+    <state width="1324" height="263" key="GridCell.Tab.0.left" timestamp="1627927555878">
       <screen x="0" y="25" width="1366" height="674" />
     </state>
-    <state width="1324" height="2" key="GridCell.Tab.0.left/1366.25.1792.1095/0.25.1366.674@0.25.1366.674" timestamp="1627923707578" />
+    <state width="1324" height="263" key="GridCell.Tab.0.left/1366.25.1792.1095/0.25.1366.674@0.25.1366.674" timestamp="1627927555878" />
     <state width="1324" height="222" key="GridCell.Tab.0.left/1366.25.1792.1095/0.25.1366.743@0.25.1366.743" timestamp="1627865395678" />
-    <state width="1324" height="2" key="GridCell.Tab.0.right" timestamp="1627923707579">
+    <state width="1324" height="263" key="GridCell.Tab.0.right" timestamp="1627927555878">
       <screen x="0" y="25" width="1366" height="674" />
     </state>
-    <state width="1324" height="2" key="GridCell.Tab.0.right/1366.25.1792.1095/0.25.1366.674@0.25.1366.674" timestamp="1627923707579" />
+    <state width="1324" height="263" key="GridCell.Tab.0.right/1366.25.1792.1095/0.25.1366.674@0.25.1366.674" timestamp="1627927555878" />
     <state width="1324" height="222" key="GridCell.Tab.0.right/1366.25.1792.1095/0.25.1366.743@0.25.1366.743" timestamp="1627865395679" />
     <state width="1324" height="263" key="GridCell.Tab.1.bottom" timestamp="1627887627470">
       <screen x="0" y="25" width="1366" height="674" />

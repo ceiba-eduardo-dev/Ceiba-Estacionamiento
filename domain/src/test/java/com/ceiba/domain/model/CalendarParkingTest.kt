@@ -1,4 +1,4 @@
-package com.ceiba.domain.model.valueobject
+package com.ceiba.domain.model
 
 import com.ceiba.domain.model.parking.CalendarParking
 import junit.framework.TestCase

@@ -1,6 +1,5 @@
-package com.ceiba.domain.model.entity
+package com.ceiba.domain.model
 
-import com.ceiba.domain.model.Motorcycle
 import junit.framework.TestCase
 
 import org.junit.Test

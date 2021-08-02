@@ -7,5 +7,5 @@ interface CarRepository {
     fun getCountTotalCars(): Int
     fun saveCar(car: Car)
     fun deleteCar(id: Int)
-    fun validateAccessCarForDay(car: Car, day: Any): Boolean
+    fun validateAccessCarForDay(licensePlate: String, string: String): Boolean
 }

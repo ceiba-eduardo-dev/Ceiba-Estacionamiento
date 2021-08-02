@@ -7,8 +7,8 @@ import com.ceiba.domain.repository.CarRepository
 class ParkingCarService(
     private val carRepository: CarRepository,
 ) {
-    fun saveCar(car: Car, day: Any) {
-        if (carRepository.validateAccessCarForDay(car, day)) {
+    fun saveCar(car: Car, day: String) {
+        if (carRepository.validateAccessCarForDay(car.getLicensePlate, day)) {
             carRepository.saveCar(car)
         } else {
             return throw ParkingCarServiceException()
