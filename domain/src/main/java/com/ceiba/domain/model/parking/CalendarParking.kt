@@ -1,6 +1,7 @@
 package com.ceiba.domain.model.parking
 
 import com.ceiba.domain.exception.CalendarParkingException
+import java.io.UnsupportedEncodingException
 import java.text.SimpleDateFormat
 import java.util.*
 
@@ -20,7 +21,9 @@ class CalendarParking(
             val temporalDate: Date = formatDate.parse(dateString)
             dateResult.time = temporalDate
             dateResult
-        } catch (exception: Exception) {
+        } catch (e: Exception) {
+            throw CalendarParkingException()
+        } catch (e: RuntimeException) {
             throw CalendarParkingException()
         }
     }
