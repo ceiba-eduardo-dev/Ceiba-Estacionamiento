@@ -1,4 +1,4 @@
-package com.ceiba.domain.model.service
+package com.ceiba.domain.service
 
 import junit.framework.TestCase
 

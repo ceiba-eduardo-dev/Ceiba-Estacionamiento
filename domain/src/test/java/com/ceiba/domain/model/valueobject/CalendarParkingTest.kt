@@ -1,6 +1,6 @@
 package com.ceiba.domain.model.valueobject
 
-import com.ceiba.domain.exception.CalendarParkingException
+import com.ceiba.domain.model.parking.CalendarParking
 import junit.framework.TestCase
 import org.junit.Test
 import java.util.*

@@ -1,10 +1,10 @@
 package com.ceiba.infrestructure.repository
 
-import com.ceiba.domain.model.entity.Car
-import com.ceiba.domain.model.repository.RepositoryCar
+import com.ceiba.domain.model.Car
+import com.ceiba.domain.repository.CarRepository
 
-class CarRepositoryRoom : RepositoryCar {
-    override fun getAllCars(): List<Car> {
+class CarRepositoryRoom : CarRepository {
+    override fun getAll(): List<Car> {
         return arrayListOf()
     }
 

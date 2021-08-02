@@ -1,5 +1,6 @@
-package com.ceiba.domain.model.entity
+package com.ceiba.domain.model.parking
 
+import com.ceiba.domain.model.Vehicle
 import java.util.*
 
 class ParkingVehicle(

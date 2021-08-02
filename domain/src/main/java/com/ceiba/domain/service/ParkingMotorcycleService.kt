@@ -1,7 +1,6 @@
-package com.ceiba.domain.model.service
+package com.ceiba.domain.service
 
-import com.ceiba.domain.model.entity.Motorcycle
-import com.ceiba.domain.model.repository.RepositoryMotorcycle
+import com.ceiba.domain.model.Motorcycle
 
 class ParkingMotorcycleService{
     companion object {

@@ -1,4 +1,4 @@
-package com.ceiba.domain.model.valueobject
+package com.ceiba.domain.model.parking
 
 import com.ceiba.domain.exception.CalendarParkingException
 import java.text.SimpleDateFormat
