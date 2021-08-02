@@ -2,3 +2,6 @@
 ./grade/*
 *.idea
 *.gradle
+*.xml
+*.bin
+*.lock
