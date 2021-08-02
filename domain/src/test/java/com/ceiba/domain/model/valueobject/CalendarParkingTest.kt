@@ -31,7 +31,8 @@ class CalendarParkingTest : TestCase() {
         try {
             CalendarParking("error de cadena").getCalendar()
         } catch (e: Exception) {
-            assertEquals(CalendarParkingException.messageError, e.message)
+            val expectedMessage = "ERROR AL CONVERTIR LA CEDENA DE TEXTO EN UNA FECHA";
+            assertEquals(expectedMessage, e.message)
         }
 
     }

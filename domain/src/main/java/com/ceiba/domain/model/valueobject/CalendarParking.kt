@@ -20,7 +20,7 @@ class CalendarParking(
             dateResult.time = temporalDate
             dateResult
         } catch (exception: Exception) {
-            throw CalendarParkingException(exception)
+            throw CalendarParkingException()
         }
     }
 }
