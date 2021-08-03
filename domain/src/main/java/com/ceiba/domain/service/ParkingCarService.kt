@@ -7,12 +7,20 @@ import com.ceiba.domain.repository.CarRepository
 class ParkingCarService(
     private val carRepository: CarRepository,
 ) {
-    fun saveCar(car: Car, day: String) {
-        if (carRepository.validateAccessCarForDay(car.getLicensePlate, day)) {
-            carRepository.saveCar(car)
+    companion object {
+        const val monday: String = "LUNES"
+        private const val regularExpressionInitLetterA = "[aA]"
+    }
+
+    fun validateAccessCarForDay(car: Car, day: String): Boolean {
+        val regex = regularExpressionInitLetterA.toRegex()
+        val startWhitA = regex.containsMatchIn(car.getLicensePlate)
+        return if (startWhitA && day == monday) {
+            throw ParkingCarServiceException()
         } else {
-            return throw ParkingCarServiceException()
+            true
         }
+
     }
 
 }

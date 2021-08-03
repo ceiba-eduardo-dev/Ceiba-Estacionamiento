@@ -12,7 +12,7 @@ class CalendarParking(
 
     companion object {
         private const val stringDateFormat = "dd-MM-yyyy hh:mm:ss"
-        val formatDate = SimpleDateFormat(stringDateFormat)
+        private val formatDate = SimpleDateFormat(stringDateFormat)
     }
 
     fun getCalendar(): Calendar {

@@ -1,16 +1,15 @@
 package com.ceiba.domain.model
 
-import com.ceiba.domain.exception.CalendarParkingException
 
-abstract class Vehicle {
-    private lateinit var licensePlate: String
-
-    constructor(licensePlate: String) {
-        validateLicensePlateFormat()
-    }
+abstract class Vehicle(
+    private val licensePlate: String
+) {
+    private val regularExpressionLicensePlate =
+        "[a-zA-Z]{3}[0-9]{3}|[a-zA-Z]{3}[0-9]{2}[a-zA-Z]$"
 
     fun validateLicensePlateFormat(): Boolean {
-        return true
+        val regex = regularExpressionLicensePlate.toRegex()
+        return regex.containsMatchIn(licensePlate) && licensePlate.length == 6
     }
 
     val getLicensePlate: String

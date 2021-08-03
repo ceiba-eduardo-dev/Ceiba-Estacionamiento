@@ -12,4 +12,8 @@ class MotorcycleTest : TestCase() {
         val cylinderCapacity = Motorcycle("PTP14F", 500).getCylinderCapacity()
         assertEquals(500, cylinderCapacity)
     }
+
+    @Test
+    fun getCylinderCapacity() {
+    }
 }
