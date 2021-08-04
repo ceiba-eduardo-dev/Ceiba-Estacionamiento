@@ -1,7 +1,8 @@
 package com.ceiba.domain.model;
 
-class Car(
-    licensePlate: String
-) : Vehicle(licensePlate) {
+import java.util.*
 
-}
+class Car(
+    licensePlate: String,
+    dateEntry: Calendar
+) : Vehicle(licensePlate, dateEntry)

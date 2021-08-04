@@ -4,7 +4,8 @@ import com.ceiba.domain.model.Car
 
 interface CarRepository {
     fun getAll(): List<Car>
-    fun getCountTotalCars(): Int
-    fun saveCar(car: Car)
-    fun deleteCar(id: Int)
+    fun getCount(): Int
+    fun getByLicensePlate(licensePlate: String): Car?
+    fun save(car: Car)
+    fun delete(car: Car)
 }

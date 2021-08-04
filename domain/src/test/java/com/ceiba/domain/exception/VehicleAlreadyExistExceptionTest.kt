@@ -6,18 +6,18 @@ import org.junit.Test
 
 import org.junit.Assert.*
 
-class CalendarParkingExceptionTest : TestCase() {
+class VehicleAlreadyExistExceptionTest : TestCase() {
 
     companion object {
-        const val messageExpected = "ERROR AL CONVERTIR LA CEDENA DE TEXTO EN UNA FECHA"
-        const val messageNotExpected = "EXITO AL CONVERTIR LA CEDENA DE TEXTO EN UNA FECHA"
+        const val messageExpected = "ERROR EL VEHICULO YA SE ENCUENTRA REGISTRADO"
+        const val messageNotExpected = "EXITO EL VEHICULO NO SE ENCUENTRA REGISTRADO"
     }
 
     @Test
     fun testGetMessage_messageExpected_success() {
         //Arrange - Act
-        val messageException = CalendarParkingException().message
-        
+        val messageException = VehicleAlreadyExistException().message
+
         //Assert
         assertEquals(messageExpected, messageException)
     }
@@ -25,7 +25,7 @@ class CalendarParkingExceptionTest : TestCase() {
     @Test
     fun testGetMessage_messageNoExpected_success() {
         //Arrange - Act
-        val messageException = CalendarParkingException().message
+        val messageException = VehicleAlreadyExistException().message
 
         //Assert
         assertEquals(true, (messageNotExpected != messageException))

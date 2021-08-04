@@ -6,5 +6,6 @@ interface MotorcycleRepository {
     fun getAll(): List<Motorcycle>
     fun getCount(): Int
     fun save(motorcycle: Motorcycle)
-    fun delete(id: Int)
+    fun delete(motorcycle: Motorcycle)
+    fun getByLicensePlate(string: String): Motorcycle
 }

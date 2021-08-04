@@ -11,11 +11,14 @@ interface CarDao {
     fun saveCar(carEntity: CarEntity?)
 
     @Query("SELECT * FROM car_entity")
-    fun getAllCars(): List<CarEntity?>?
+    fun getAllCars(): List<CarEntity>?
 
     @Query("DELETE FROM car_entity WHERE id = :id")
     fun deleteCar(id: Int)
 
     @Query("SELECT COUNT(*) FROM car_entity")
-    fun getCountTotalCars(): Byte
+    fun getCountTotalCars(): Int
+
+    @Query("SELECT * FROM car_entity WHERE license_plate LIKE :licensePlate")
+    fun getByLicensePlate(licensePlate: String): CarEntity
 }

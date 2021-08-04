@@ -23,8 +23,6 @@ class CalendarParking(
             dateResult
         } catch (e: Exception) {
             throw CalendarParkingException()
-        } catch (e: RuntimeException) {
-            throw CalendarParkingException()
         }
     }
 }

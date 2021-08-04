@@ -5,17 +5,15 @@ import androidx.room.Entity
 import androidx.room.PrimaryKey
 
 @Entity(tableName = "motorcycle_entity")
-class MotorcycleEntity {
+class MotorcycleEntity(
+    @ColumnInfo(name = "licensePlate")
+    val licensePlate: String,
+    @ColumnInfo(name = "cylinderCapacity")
+    val cylinderCapacity: Int,
+    @ColumnInfo(name = "dateEntry")
+    val dateEntry: String
+) {
     @PrimaryKey(autoGenerate = true)
     @ColumnInfo(name = "id")
     var id = 0
-
-    @ColumnInfo(name = "licensePlate")
-    val licensePlate: String? = null
-
-    @ColumnInfo(name = "cylinderCapacity")
-    val cylinderCapacity: Int? = null
-
-    @ColumnInfo(name = "dateEntry")
-    var dateEntry: String? = null
 }

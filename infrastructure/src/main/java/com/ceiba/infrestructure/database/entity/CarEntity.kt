@@ -5,14 +5,13 @@ import androidx.room.Entity
 import androidx.room.PrimaryKey
 
 @Entity(tableName = "car_entity")
-class CarEntity {
+class CarEntity(
+    @ColumnInfo(name = "license_plate")
+    val licensePlate: String,
+    @ColumnInfo(name = "date_entry")
+    val dateEntry: String
+) {
     @PrimaryKey(autoGenerate = true)
     @ColumnInfo(name = "id")
-    var id = 0
-
-    @ColumnInfo(name = "licensePlate")
-    val licensePlate: String? = null
-
-    @ColumnInfo(name = "dateEntry")
-    var dateEntry: String? = null
+    var id: Int = 0
 }
