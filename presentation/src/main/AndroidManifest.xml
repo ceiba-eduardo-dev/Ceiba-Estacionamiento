@@ -10,12 +10,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Estacionamiento">
-        <activity android:name=".vehicles.controller.views.VehicleExitActivity"></activity>
-        <activity android:name=".vehicles.controller.views.VehicleEntryActivity" />
         <activity android:name=".VehiclesActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
