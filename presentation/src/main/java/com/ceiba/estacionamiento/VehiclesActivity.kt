@@ -1,6 +1,5 @@
 package com.ceiba.estacionamiento
 
-import androidx.activity.viewModels
 import androidx.viewbinding.ViewBinding
 import com.ceiba.estacionamiento.databinding.ActivityVehiclesBinding
 import dagger.hilt.android.AndroidEntryPoint
