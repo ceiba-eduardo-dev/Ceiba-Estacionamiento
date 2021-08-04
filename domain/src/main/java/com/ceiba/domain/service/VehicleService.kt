@@ -6,7 +6,7 @@ abstract class VehicleService() {
         const val totalHoursDay = 24
     }
 
-    protected fun calculatePriceForHours(hours: Int, priceDay: Int, priceHour: Int): Int {
+    fun calculatePriceForHours(hours: Int, priceDay: Int, priceHour: Int): Int {
         var price = 0
         if (hours >= minHoursDay && hours > totalHoursDay) {
             var residue = hours % totalHoursDay

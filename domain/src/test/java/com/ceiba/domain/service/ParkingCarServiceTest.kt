@@ -226,4 +226,17 @@ class ParkingCarServiceTest : TestCase() {
         }
     }
 
+    @Test
+    fun testCalculatePriceForHours_withCar_price100() {
+        //Arrange
+        carRepository = Mockito.mock(CarRepository::class.java)
+        val parkingService = ParkingCarService(carRepository)
+
+        //Act
+        val resultPriceHourCar = parkingService.calculatePriceByCar(1)
+
+        //Assert
+        assertEquals(1000, resultPriceHourCar)
+    }
+
 }

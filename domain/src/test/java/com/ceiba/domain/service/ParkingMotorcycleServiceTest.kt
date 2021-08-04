@@ -3,6 +3,7 @@ package com.ceiba.domain.service
 import com.ceiba.domain.exception.VehicleDeleteException
 import com.ceiba.domain.model.Motorcycle
 import com.ceiba.domain.model.parking.CalendarParking
+import com.ceiba.domain.repository.CarRepository
 import com.ceiba.domain.repository.MotorcycleRepository
 import junit.framework.TestCase
 import org.junit.Before
@@ -193,8 +194,18 @@ class ParkingMotorcycleServiceTest : TestCase() {
 
         //Assert
         assertEquals(0, expected)
+    }
 
+    @Test
+    fun testCalculatePriceForHours_withCar_price100() {
+        //Arrange
+        val parkingService = ParkingMotorcycleService(motorCycleRepository)
 
+        //Act
+        val resultPriceHourCar = parkingService.calculatePriceByMotorcycle(1)
+
+        //Assert
+        assertEquals(500, resultPriceHourCar)
     }
 
 }
