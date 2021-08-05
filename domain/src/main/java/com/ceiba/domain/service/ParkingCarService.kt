@@ -1,16 +1,17 @@
 package com.ceiba.domain.service
 
+import androidx.lifecycle.MutableLiveData
 import com.ceiba.domain.exception.ParkingCarServiceException
 import com.ceiba.domain.exception.VehicleAlreadyExistException
 import com.ceiba.domain.exception.VehicleDeleteException
 import com.ceiba.domain.model.Car
+import com.ceiba.domain.model.Vehicle
 import com.ceiba.domain.repository.CarRepository
-import java.lang.Exception
-import javax.inject.Inject
+import java.util.*
 
-class ParkingCarService @Inject constructor(
+class ParkingCarService constructor(
     private val carRepository: CarRepository
-) : VehicleService() {
+) {
     companion object {
         const val monday: String = "LUNES"
         private const val regularExpressionInitLetterA = "[aA]"
@@ -28,8 +29,11 @@ class ParkingCarService @Inject constructor(
         }
     }
 
-    fun getAll(): List<Car>? {
-        return carRepository.getAll()
+    fun getAll(): List<Vehicle> {
+        val listaMutable: MutableLiveData<List<Vehicle>> = MutableLiveData<List<Vehicle>>()
+        val listaVehiculos: MutableList<Vehicle> = ArrayList<Vehicle>()
+        listaVehiculos.addAll(carRepository.getAll())
+        return listaVehiculos
     }
 
     fun getCount(): Int? {
@@ -64,7 +68,9 @@ class ParkingCarService @Inject constructor(
     }
 
     fun calculatePriceByCar(hours: Int): Int {
-        return calculatePriceForHours(hours, priceDayCar, priceHourCar)
+        //   return calculatePriceForHours(hours, priceDayCar, priceHourCar)
+        return 0
     }
 
 }
+

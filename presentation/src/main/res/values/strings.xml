@@ -8,4 +8,6 @@
     <string name="registry_entry">Registrar Entrada</string>
     <string name="date_exit">FECHA DE SALIDA</string>
     <string name="exit">DAR SALIDA</string>
+    <string name="cancel">CANCELAR</string>
+    <string name="total_price">PRECIO TOTAL</string>
 </resources>

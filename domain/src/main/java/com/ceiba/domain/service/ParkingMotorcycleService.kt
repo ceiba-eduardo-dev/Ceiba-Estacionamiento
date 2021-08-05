@@ -6,7 +6,7 @@ import com.ceiba.domain.model.Motorcycle
 import com.ceiba.domain.repository.MotorcycleRepository
 import javax.inject.Inject
 
-class ParkingMotorcycleService @Inject constructor(
+class ParkingMotorcycleService (
     private val motorcycleRepository: MotorcycleRepository
 ) : VehicleService() {
     companion object {

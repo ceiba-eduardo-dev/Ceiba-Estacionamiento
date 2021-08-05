@@ -1,6 +1,6 @@
 package com.ceiba.domain.service
 
-abstract class VehicleService() {
+abstract class VehicleService {
     companion object {
         const val minHoursDay = 9;
         const val totalHoursDay = 24

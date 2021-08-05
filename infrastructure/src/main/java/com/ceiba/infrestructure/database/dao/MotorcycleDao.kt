@@ -3,21 +3,20 @@ package com.ceiba.infrestructure.database.dao
 import androidx.room.Dao
 import androidx.room.Insert
 import androidx.room.Query
-import com.ceiba.infrestructure.database.entity.CarEntity
 import com.ceiba.infrestructure.database.entity.MotorcycleEntity
 
 @Dao
 interface MotorcycleDao {
     @Insert
-    fun saveMotorcycle(MotorcycleEntity: MotorcycleEntity?)
+    fun saveMotorcycle(motorcycleEntity: MotorcycleEntity?)
 
-    @Query("SELECT * FROM Motorcycle_entity")
+    @Query("SELECT * FROM motorcycle_entity")
     fun getAllMotorcycles(): List<MotorcycleEntity>
 
-    @Query("DELETE FROM Motorcycle_entity WHERE id = :id")
+    @Query("DELETE FROM motorcycle_entity WHERE id = :id")
     fun deleteMotorcycle(id: Int)
 
-    @Query("SELECT COUNT(*) FROM Motorcycle_entity")
+    @Query("SELECT COUNT(*) FROM motorcycle_entity")
     fun getCountTotalMotorcycles(): Int
 
     @Query("SELECT * FROM motorcycle_entity WHERE licensePlate LIKE :licensePlate")

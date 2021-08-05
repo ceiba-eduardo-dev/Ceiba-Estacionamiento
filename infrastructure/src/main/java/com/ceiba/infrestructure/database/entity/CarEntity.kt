@@ -4,6 +4,7 @@ import androidx.room.ColumnInfo
 import androidx.room.Entity
 import androidx.room.PrimaryKey
 
+
 @Entity(tableName = "car_entity")
 class CarEntity(
     @ColumnInfo(name = "license_plate")

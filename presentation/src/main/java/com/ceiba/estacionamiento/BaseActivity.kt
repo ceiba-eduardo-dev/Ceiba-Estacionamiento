@@ -4,9 +4,7 @@ import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import androidx.viewbinding.ViewBinding
 import com.google.android.material.dialog.MaterialAlertDialogBuilder
-import dagger.hilt.android.AndroidEntryPoint
 
-@AndroidEntryPoint
 abstract class BaseActivity : AppCompatActivity(), BaseView {
 
     private lateinit var binding: ViewBinding
@@ -36,10 +34,11 @@ abstract class BaseActivity : AppCompatActivity(), BaseView {
         //"cargado".showMessage(this)
     }
 
-    override fun showError(message: String?) {
+    override fun showMessage(message: String?) {
         MaterialAlertDialogBuilder(this)
             .setMessage(message)
             .setPositiveButton("Ok", null)
             .show()
     }
+
 }

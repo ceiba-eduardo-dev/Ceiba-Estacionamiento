@@ -18,17 +18,18 @@ abstract class ParkingDatabase : RoomDatabase() {
     abstract fun carDao(): CarDao
 
     companion object {
-        private var INSTANCE: ParkingDatabase? = null
 
-        @Synchronized
+        @Volatile
+        private var instance: ParkingDatabase? = null
+
         fun get(context: Context): ParkingDatabase {
-            if (INSTANCE == null) {
-                INSTANCE = Room.databaseBuilder(
-                    context.applicationContext,
-                    ParkingDatabase::class.java, "parking-v1"
-                ).build()
+            return instance ?: synchronized(this) {
+                instance ?: buildDatabase(context).also { instance = it }
             }
-            return INSTANCE!!
+        }
+
+        private fun buildDatabase(context: Context): ParkingDatabase {
+            return Room.databaseBuilder(context, ParkingDatabase::class.java, "prueba-parking").build()
         }
     }
 }

@@ -1,7 +1,7 @@
 plugins {
     id 'com.android.library'
     id 'kotlin-android'
-    id 'jacoco'
+  //  id 'jacoco'
     id 'kotlin-kapt'
     id 'dagger.hilt.android.plugin'
 }
@@ -34,48 +34,15 @@ android {
         jvmTarget = '1.8'
     }
     testOptions {
-        unitTests.all {
-            jacoco {
-                includeNoLocationClasses = true
-            }
-        }
+        //unitTests.all {
+          //  jacoco {
+            //    includeNoLocationClasses = true
+           // }
+        //}
         unitTests.returnDefaultValues = true
     }
 }
 
-//JACOCO
-jacoco {
-    toolVersion = "$jacocoVersion"
-}
-
-tasks.withType(Test) {
-    jacoco.includeNoLocationClasses = true
-    testLogging {
-        exceptionFormat "full"
-        events "skipped", "passed", "failed"
-        showStandardStreams true
-    }
-    finalizedBy(jacocoTestReport)
-}
-
-task jacocoTestReport(type: JacocoReport, dependsOn: ['testDebugUnitTest', 'createDebugCoverageReport']) {
-
-    reports {
-        xml.enabled = true
-        html.enabled = true
-    }
-
-    def fileFilter = ['**/R.class', '**/R$*.class', '**/BuildConfig.*', '**/Manifest*.*', '**/*Test*.*', 'android/**/*.*', '**/data/models/*']
-    def kotlinDebugTree = fileTree(dir: "${buildDir}/tmp/kotlin-classes/debug", excludes: fileFilter)
-    def mainSrc = "${project.projectDir}/src/main/java"
-
-    sourceDirectories.setFrom(files([mainSrc]))
-    classDirectories.setFrom(files([kotlinDebugTree]))
-    executionData.setFrom(fileTree(dir: "$buildDir", includes: [
-            "jacoco/testDebugUnitTest.exec",
-            "outputs/code-coverage/connected/*coverage.ec"
-    ]))
-}
 
 
 dependencies {
